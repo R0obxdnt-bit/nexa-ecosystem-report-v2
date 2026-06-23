@@ -1,3 +1,4 @@
+<br>
 <p align="center">
   <img src="../assets/images/front-matter/cover/upc-logo.png" alt="UPC Logo" width="220"/>
 </p>
@@ -40,7 +41,6 @@
 <br>
 
 <p align="center"><strong>Período 202610</strong></p>
-
 <br>
-
 <p align="center"><strong>Junio 2026</strong></p>
+<br>
