@@ -1,4 +1,4 @@
-## 4.4. Web Applications UX/UI Design
+****## 4.4. Web Applications UX/UI Design
 
 Esta sección documenta el diseño UX/UI de las superficies autenticadas de Nexa: la **Web Application interna** para los segmentos **S1 — Commercial Coordination** y **S2 — Operations / Account Owner**, y el **Buyer Portal** para **S3 — B2B Buyer Portal**. Estas superficies comparten el sistema visual definido en 4.1 y la arquitectura de información descrita en 4.2, pero se diferencian por densidad, navegación, nivel de detalle y responsabilidad de negocio.
 
@@ -308,7 +308,7 @@ https://lucid.app/lucidchart/b91c8e98-a38b-456a-92e5-f942be7e8439/edit?invitatio
 
 El user flow de S3 representa el recorrido de Elena como compradora B2B. El flujo conecta el descubrimiento, acceso, construcción de solicitudes, pedidos confirmados, documentos y estado del pago. Esta representación diagramática complementa los mockups desktop y mobile de alta fidelidad incorporados en esta sección.
 
-https://lucid.app/lucidchart/fd9a95ac-41df-4050-b097-9ac255290e45/edit?view_items=jV76JIpS~GQ~%2CEE-69fu3SEZn%2C.x869HhjmLNZ%2CRK-6ZJxNGbXU%2CL196QvicmQVg%2ClU76RF2avL6M%2CAG-6WBY~X2a7%2CHp-6tXcRsOlP%2C-A-6w-SDYvhl%2C4C-6akbc7L6h%2Cl276CkhOmWTU%2CQy-6BvPXAV~n%2Co-96vNrpwFv4%2CiH-6tPVlqJ~t%2C_S76DK_lKxe0%2CDJ-6oe-3SeFb%2CNU76~dYYOGKw%2C4y-6KmugLEqt%2CmT763XdIavdu%2CZB-670PGAeBO%2C1T763mBjJlI6%2CeQ96-oZnMWG9%2CPA-6sghQQ68V%2C6U76LKo6njtH%2CCL-6Tizg1zZf%2C3K-6Rk5lg8Hb%2CuB-66-HzZfqH%2CYz-6kid1ejZ3%2CQC-6z8A~3dBL%2CxI-6DgDxHBfQ%2CgU76PxI~0a53%2CjD-6cAXRji8p%2CvI86ERula6-o%2Czv-6MAfnpLo3%2Cn976MIfJMQX~%2Cws-6d_5MiM4_%2Cg776~27srzo6%2CGA86Vy0STfAp%2C5B86w3ydsgO1%2Cy276~Zfq8YbP%2CNt-6w-GgvXLa%2C8076KHyf8nyv%2Cvy86n.J~nj8x%2CK376xZksEcUG%2CN776KbACctwI&page=0_0&invitationId=inv_4888a70f-e0f1-4797-83ed-a762247133cb
+[(https://cutt.ly/ft40ZCeu](https://cutt.ly/ft40ZCeu)
 
 ![S3 User flow B2B Buyer Portal](../assets/images/chapter-4/webapp/user-flows/s3-buyer-portal-userflow-lucid.png)
 
