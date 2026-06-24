@@ -308,7 +308,7 @@ https://lucid.app/lucidchart/b91c8e98-a38b-456a-92e5-f942be7e8439/edit?invitatio
 
 El user flow de S3 representa el recorrido de Elena como compradora B2B. El flujo conecta el descubrimiento, acceso, construcción de solicitudes, pedidos confirmados, documentos y estado del pago. Esta representación diagramática complementa los mockups desktop y mobile de alta fidelidad incorporados en esta sección.
 
-[(https://cutt.ly/ft40ZCeu](https://cutt.ly/ft40ZCeu)
+[https://cutt.ly/ft40ZCeu](https://cutt.ly/ft40ZCeu)
 
 ![S3 User flow B2B Buyer Portal](../assets/images/chapter-4/webapp/user-flows/s3-buyer-portal-userflow-lucid.png)
 
