@@ -1,4 +1,4 @@
-****## 4.4. Web Applications UX/UI Design
+## **4.4. Web Applications UX/UI Design**
 
 Esta sección documenta el diseño UX/UI de las superficies autenticadas de Nexa: la **Web Application interna** para los segmentos **S1 — Commercial Coordination** y **S2 — Operations / Account Owner**, y el **Buyer Portal** para **S3 — B2B Buyer Portal**. Estas superficies comparten el sistema visual definido en 4.1 y la arquitectura de información descrita en 4.2, pero se diferencian por densidad, navegación, nivel de detalle y responsabilidad de negocio.
 
