@@ -26,7 +26,7 @@ Se consideraron los siguientes criterios:
 
 ![Consolidated DDD Tactical Map](../assets/images/chapter-4/architecture/class-diagrams/consolidated-ddd-tactical-map.png)
 
-**Nota:** El mapa táctico resume la relación entre bounded contexts, aggregates y componentes de soporte transversal.
+> *Nota:* El mapa táctico resume la relación entre bounded contexts, aggregates y componentes de soporte transversal.
 
 El mapa táctico de clases presenta los cinco bounded contexts principales y sus objetos de dominio más relevantes:
 
@@ -90,7 +90,7 @@ Relaciones recomendadas:
 
 ![Sales Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-orders-commercial-management.png)
 
-**Nota:** Sales gestiona clientes B2B, solicitudes de compra, validación comercial y órdenes de venta confirmadas.
+> *Nota:* Sales gestiona clientes B2B, solicitudes de compra, validación comercial y órdenes de venta confirmadas.
 
 Sales es el bounded context responsable del flujo comercial de pedidos. Este contexto distingue una solicitud de compra de una orden de venta confirmada. Esta distinción es importante porque no toda solicitud se convierte en orden. Una solicitud primero requiere validación comercial, revisión de crédito y coordinación de disponibilidad de stock.
 
@@ -123,7 +123,7 @@ Relaciones recomendadas:
 
 ![Warehouse Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-inventory.png)
 
-**Nota:** Warehouse gestiona almacenes, lotes de inventario, reservas de stock, movimientos de stock y criterios FEFO.
+> *Nota:* Warehouse gestiona almacenes, lotes de inventario, reservas de stock, movimientos de stock y criterios FEFO.
 
 Warehouse es responsable de la disponibilidad física y operativa de los productos. Este contexto debe representar explícitamente lotes de inventario y reservas de stock porque los productos gourmet refrigerados requieren trazabilidad por lote y fecha de vencimiento.
 
@@ -186,7 +186,7 @@ Relaciones recomendadas:
 
 ![Invoicing Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-invoicing.png)
 
-**Nota:** Invoicing gestiona documentos comerciales, resúmenes de cobro, pagos simulados y visibilidad del estado de pago.
+> *Nota:* Invoicing gestiona documentos comerciales, resúmenes de cobro, pagos simulados y visibilidad del estado de pago.
 
 Invoicing es responsable de la visibilidad documental y de pago de la orden. En el alcance actual, el proceso de pago se representa como un flujo simulado, mientras que el dominio mantiene el modelado de estado de pago y visibilidad de documentos comerciales.
 
