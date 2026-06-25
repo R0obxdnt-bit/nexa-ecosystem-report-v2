@@ -1,4 +1,4 @@
-# 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture
 
 Esta sección presenta la arquitectura de software dirigida por el dominio propuesta para Nexa. El objetivo es alinear el dominio de negocio, los bounded contexts, las decisiones de diseño táctico y las vistas arquitectónicas del C4 Model antes de pasar al diseño orientado a objetos y al diseño de base de datos.
 
@@ -18,13 +18,13 @@ Los bounded contexts finales definidos para Nexa son:
 
 Identity and Access Management se considera una capacidad de soporte transversal porque permite autenticación, autorización, gestión de usuarios, configuración de tenant y control de acceso basado en roles. Sin embargo, no se trata como uno de los bounded contexts principales del negocio de Nexa. Del mismo modo, reporting y analytics se representan como read models derivados de los bounded contexts operativos.
 
-## 4.6.1. Design-Level EventStorming
+### 4.6.1. Design-Level EventStorming
 
 El proceso de Design-Level EventStorming se utilizó para refinar el modelo de dominio inicialmente explorado en la sección de Big Picture EventStorming. El objetivo fue identificar domain events, commands, policies, read models, aggregates y bounded contexts con un mayor nivel de detalle.
 
 El workshop se enfocó en el flujo B2B end-to-end del pedido: descubrimiento de productos, envío de solicitud de compra, validación comercial, reserva de stock, programación de despacho, trazabilidad de entrega, evidencia de entrega y revisión de documentos/pago.
 
-### Step 4: Pivotal Points
+#### Step 4: Pivotal Points
 
 ![Design-Level EventStorming - Step 4](../assets/images/chapter-4/architecture/ddd/ddd-step-4.png)
 
@@ -32,7 +32,7 @@ Los pivotal points representan decisiones relevantes del negocio donde el flujo 
 
 Estos puntos de decisión son importantes porque revelan reglas de negocio que no pueden asignarse únicamente a la interfaz de usuario. Deben representarse como políticas de dominio, comportamiento de aggregates o application services según su alcance.
 
-### Step 5: Commands
+#### Step 5: Commands
 
 ![Design-Level EventStorming - Step 5](../assets/images/chapter-4/architecture/ddd/ddd-step-5.png)
 
@@ -48,7 +48,7 @@ La siguiente tabla resume los principales commands por bounded context:
 | Logistics | ScheduleDispatch, StartDispatch, RegisterTraceabilityEvent, RegisterDeliveryIncident, RegisterTemperatureCheck, RegisterDeliveryEvidence |
 | Invoicing | GenerateCommercialDocument, RegisterSimulatedPayment, UpdatePaymentStatus, PublishDocumentForBuyer |
 
-### Step 6: Policies
+#### Step 6: Policies
 
 ![Design-Level EventStorming - Step 6](../assets/images/chapter-4/architecture/ddd/ddd-step-6.png)
 
@@ -63,7 +63,7 @@ Las policies representan reglas de dominio que reaccionan ante commands o events
 | Dispatch closure policy | Un despacho no puede marcarse como entregado sin evidencia de entrega. | Logistics |
 | Payment visibility policy | Un comprador puede revisar el estado de pago y los documentos comerciales asociados a su orden. | Invoicing |
 
-### Step 7: Read Models
+#### Step 7: Read Models
 
 ![Design-Level EventStorming - Step 7](../assets/images/chapter-4/architecture/ddd/ddd-step-7.png)
 
@@ -83,7 +83,7 @@ Los read models representan vistas de información requeridas por los usuarios p
 | DocumentHistoryView | Muestra documentos comerciales asociados a una orden de venta. | Invoicing |
 | PaymentStatusView | Muestra el estado de pago simulado e información pendiente de pago. | Invoicing |
 
-### Step 9: Consolidated Flow by Context
+#### Step 9: Consolidated Flow by Context
 
 ![Design-Level EventStorming - Step 9](../assets/images/chapter-4/architecture/ddd/ddd-step-9.png)
 
@@ -91,7 +91,7 @@ El flujo consolidado organiza los principales events, commands y read models seg
 
 El flujo principal inicia cuando un producto se encuentra disponible en el catálogo y un comprador B2B envía una solicitud de compra. Luego, el contexto Sales valida la solicitud y confirma la orden de venta. Después, Warehouse reserva stock y Logistics programa y monitorea el despacho. Finalmente, Invoicing publica los documentos comerciales y actualiza el estado de pago.
 
-### Step 10: Bounded Contexts
+#### Step 10: Bounded Contexts
 
 ![Design-Level EventStorming - Step 10](../assets/images/chapter-4/architecture/ddd/ddd-step-10.png)
 
@@ -107,7 +107,7 @@ El mapa final de bounded contexts de Nexa está compuesto por cinco contextos pr
 
 El modelo resultante mantiene Identity and Access Management como una capacidad de soporte. Esta área de soporte provee gestión de usuarios, roles, permisos, tenants y sesiones, pero no reemplaza ninguno de los cinco contextos core del negocio.
 
-## 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram
 
 El diagrama de contexto C4 presenta a Nexa como el sistema de software central y muestra su interacción con los principales usuarios y sistemas externos de soporte.
 
@@ -132,7 +132,7 @@ El contexto del sistema considera los siguientes actores externos:
 
 El diagrama de contexto es consistente con los tres segmentos objetivo principales del producto: coordinación comercial, operaciones/account ownership y compradores B2B.
 
-## 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 
 El diagrama de contenedores describe la estructura técnica de alto nivel de la solución. Nexa se organiza en un Landing Page público, una Web Application, una RESTful API y una base de datos relacional. Los servicios externos se representan como sistemas de soporte.
 
@@ -142,7 +142,7 @@ El diagrama de contenedores describe la estructura técnica de alto nivel de la 
 
 ![C4 Container Diagram Key](../assets/images/chapter-4/architecture/c4/c4-container-diagram-key.svg)
 
-**Nota:** Leyenda del diagrama generada por Structurizr.
+> *Nota:* Leyenda del diagrama generada por Structurizr.
 
 | Container | Tecnología / enfoque | Responsabilidad |
 |---|---|---|
@@ -154,7 +154,7 @@ El diagrama de contenedores describe la estructura técnica de alto nivel de la 
 
 La Web Application se comunica con la RESTful API mediante solicitudes HTTP. La RESTful API centraliza el comportamiento de dominio y el acceso a datos. La base de datos relacional PostgreSQL persiste la información requerida por los bounded contexts y los read models derivados.
 
-## 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 
 El diagrama de componentes describe la descomposición interna del contenedor principal de backend. Los componentes se organizan según los bounded contexts definidos mediante DDD, mientras que las responsabilidades transversales permanecen separadas de los módulos de negocio.
 
