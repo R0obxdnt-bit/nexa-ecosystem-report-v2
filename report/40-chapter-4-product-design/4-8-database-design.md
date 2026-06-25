@@ -1,4 +1,4 @@
-# 4.8. Database Design
+## 4.8. Database Design
 
 Esta sección presenta el diseño de base de datos de Nexa. El modelo de base de datos está alineado con la arquitectura de software dirigida por el dominio documentada en la sección 4.6 y con el diseño orientado a objetos documentado en la sección 4.7.
 
@@ -8,7 +8,7 @@ El diseño sigue un enfoque de base de datos relacional utilizando PostgreSQL pa
 
 Desde la perspectiva DDD, las relaciones entre tablas de distintos bounded contexts se interpretan como referencias persistentes por identificador dentro de un modelo relacional integrado. Estas relaciones no implican que los aggregates de un contexto accedan directamente al comportamiento interno de otro contexto. La coordinación entre contextos debe realizarse mediante application services, domain events, integration events o consultas controladas según el caso de uso.
 
-## 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams
 
 Los diagramas de base de datos se agrupan por contexto para preservar los límites del dominio y mejorar la mantenibilidad. Esta estructura también ayuda a evitar que los datos comerciales, de inventario, logística e invoicing se mezclen en un mismo modelo conceptual.
 
@@ -22,7 +22,7 @@ Los diagramas de base de datos se agrupan por contexto para preservar los límit
 | Invoicing | Persiste documentos comerciales, registros de pago, estados de pago y resúmenes de cobro. |
 | Read Models | Persiste estructuras derivadas de consulta para reportes y dashboards. |
 
-### Identity and Access Support Database Diagram
+#### Identity and Access Support Database Diagram
 
 ![Identity and Access Database Diagram](../assets/images/chapter-4/database/identity-and-access.png)
 
@@ -52,7 +52,7 @@ Restricciones principales:
 | USER_SESSIONS.user_id FK | Referencia a USERS.user_id. |
 | USERS.email UK | Evita correos electrónicos duplicados dentro de la plataforma o dentro del alcance de tenant. |
 
-### Catalog Management Database Diagram
+#### Catalog Management Database Diagram
 
 ![Catalog Management Database Diagram](../assets/images/chapter-4/database/catalog.png)
 
@@ -77,7 +77,7 @@ Restricciones principales:
 | PRODUCT_PROMOTIONS.promotion_id FK | Referencia a PROMOTIONS.promotion_id. |
 | PRODUCTS.status CHECK | Restringe el estado del producto a valores permitidos como active, inactive o unavailable. |
 
-### Sales Database Diagram
+#### Sales Database Diagram
 
 ![Sales Database Diagram](../assets/images/chapter-4/database/orders-and-commercial-management.png)
 
@@ -113,7 +113,7 @@ Restricciones principales:
 | CREDIT_WARNINGS.request_id FK | Referencia a PURCHASE_REQUESTS.request_id. |
 | ORDER_OBSERVATIONS.order_id FK | Referencia a SALES_ORDERS.order_id. |
 
-### Warehouse Database Diagram
+#### Warehouse Database Diagram
 
 ![Warehouse Database Diagram](../assets/images/chapter-4/database/inventory.png)
 
@@ -142,7 +142,7 @@ Restricciones principales:
 | INVENTORY_LOTS.available_quantity CHECK | Evita disponibilidad negativa de stock. |
 | RESERVATIONS.reservation_status CHECK | Restringe el estado de la reserva a active, released, consumed o cancelled. |
 
-### Logistics Database Diagram
+#### Logistics Database Diagram
 
 ![Logistics Database Diagram](../assets/images/chapter-4/database/dispatch-and-traceability.png)
 
@@ -171,13 +171,13 @@ Restricciones principales:
 | DISPATCH_ORDERS.dispatch_status CHECK | Restringe el estado del despacho a scheduled, in_transit, incident, delivered o cancelled. |
 | DISPATCH_INCIDENTS.severity CHECK | Restringe la severidad de incidencias a valores predefinidos. |
 
-### Invoicing Database Diagram
+#### Invoicing Database Diagram
 
 *Figura. Diagrama de base de datos asociado a Invoicing*
 
 ![Invoicing](../assets/images/chapter-4/database/invoicing.png)
 
-> Nota. Invoicing almacena documentos comerciales, registros de pago simulado, estados de pago y resúmenes de cobro asociados a órdenes comerciales. Elaboración propia.
+> *Nota:* Invoicing almacena documentos comerciales, registros de pago simulado, estados de pago y resúmenes de cobro asociados a órdenes comerciales. Elaboración propia.
 El modelo de Invoicing proporciona visibilidad de pagos y documentos para el comprador. En el alcance actual, el pago se trata como un flujo simulado, pero el diseño de base de datos representa registros de pago y estado de pago para mantener el modelo extensible.
 
 | Tabla | Columnas principales | Descripción |
@@ -199,7 +199,7 @@ Restricciones principales:
 | COMMERCIAL_DOCUMENTS.visibility_status CHECK | Restringe la visibilidad del documento a visible, hidden o pending. |
 | PAYMENT_RECORDS.amount CHECK | Asegura que el monto de pago sea mayor o igual a cero. |
 
-### Read Models Database Diagram
+#### Read Models Database Diagram
 
 ![Read Models Database Diagram](../assets/images/chapter-4/database/read-models.png)
 
@@ -214,7 +214,7 @@ Los read models consolidan información de los contextos principales para mejora
 | DISPATCH_REPORT_READ_MODEL | Logistics, Sales | Consolida estado de despacho, tiempos de entrega, incidencias y evidencia de entrega. |
 | PAYMENT_STATUS_READ_MODEL | Invoicing, Sales | Consolida estado de pago de órdenes, registros de pago y visibilidad documental. |
 
-### Full Database Diagram
+#### Full Database Diagram
 
 ![Full Database Diagram](../assets/images/chapter-4/database/full-database-diagram.png)
 
