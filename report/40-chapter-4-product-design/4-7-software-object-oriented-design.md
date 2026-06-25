@@ -1,4 +1,4 @@
-# 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design
 
 Esta sección presenta el diseño orientado a objetos de Nexa. El diseño está alineado con la arquitectura de software dirigida por el dominio definida en la sección 4.6 y utiliza diagramas de clases UML para representar las principales entidades, value objects, enumeraciones, servicios, repositorios y relaciones requeridas por el sistema.
 
@@ -6,7 +6,7 @@ El modelo orientado a objetos se organiza alrededor de los bounded contexts fina
 
 Los diagramas también mantienen trazabilidad con el diseño de base de datos presentado en la sección 4.8. Por ello, las entidades principales representadas en los diagramas de clases tienen una estructura de persistencia correspondiente en el modelo relacional de base de datos.
 
-## 4.7.1. Class Diagrams
+### 4.7.1. Class Diagrams
 
 Los diagramas de clases incluyen clases, atributos, operaciones, scope, enumeraciones, asociaciones y multiplicidades. El objetivo es representar la estructura orientada a implementación de cada bounded context sin perder consistencia con el lenguaje del dominio.
 
@@ -22,7 +22,7 @@ Se consideraron los siguientes criterios:
 | Soporte transversal | Las clases de Identity and Access se separan de los principales contextos de negocio. |
 | Trazabilidad | Las clases están alineadas con los bounded contexts y las tablas de base de datos documentadas en este capítulo. |
 
-### Consolidated Tactical Class Map
+#### Consolidated Tactical Class Map
 
 ![Consolidated DDD Tactical Map](../assets/images/chapter-4/architecture/class-diagrams/consolidated-ddd-tactical-map.png)
 
@@ -58,11 +58,11 @@ El modelo de soporte de Identity and Access contiene las clases requeridas para 
 
 Este modelo no debe interpretarse como un bounded context principal. Es una capacidad de soporte transversal requerida por todos los módulos de negocio.
 
-### Catalog Management Class Diagram
+#### Catalog Management Class Diagram
 
 ![Catalog Management Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-catalog.png)
 
-**Nota:** Catalog Management gestiona productos, categorías, promociones, visibilidad del producto e información de conservación.
+> *Nota:* Catalog Management gestiona productos, categorías, promociones, visibilidad del producto e información de conservación.
 
 Catalog Management es responsable de mantener el catálogo comercial de productos. Los productos se identifican usando un código interno de producto, no SKU, porque el lenguaje ubicuo de Nexa utiliza el concepto de código interno de producto.
 
@@ -86,7 +86,7 @@ Relaciones recomendadas:
 | Product - TemperatureRange | 1 a 1 | Cada producto refrigerado tiene un rango de temperatura recomendado. |
 | Product - Promotion | muchos a muchos o 1 a muchos | Un producto puede estar asociado a promociones según las reglas del negocio. |
 
-### Sales Class Diagram
+#### Sales Class Diagram
 
 ![Sales Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-orders-commercial-management.png)
 
@@ -119,7 +119,7 @@ Relaciones recomendadas:
 | B2BClient - CommercialCondition | 1 a 1 o 1 a muchos | Un cliente tiene condiciones comerciales usadas durante la validación. |
 | PurchaseRequest - OrderObservation | 0 a muchos | Una solicitud puede contener observaciones comerciales u operativas. |
 
-### Warehouse Class Diagram
+#### Warehouse Class Diagram
 
 ![Warehouse Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-inventory.png)
 
@@ -150,7 +150,7 @@ Relaciones recomendadas:
 | Reservation - PurchaseRequest / SalesOrder | muchos a 1 | Las reservas se asocian con la demanda comercial proveniente de Sales. |
 | InventoryLot - FEFOCriteria | muchos a 1 lógico | Los criterios FEFO se usan para seleccionar lotes por fecha de vencimiento. |
 
-### Logistics Class Diagram
+#### Logistics Class Diagram
 
 ![Logistics Class Diagram](../assets/images/chapter-4/architecture/class-diagrams/class-diagram-dispatch-traceability.png)
 
@@ -212,7 +212,7 @@ Relaciones recomendadas:
 | PaymentRecord - PaymentStatus | muchos a 1 | Los registros de pago actualizan o reflejan el estado de pago actual. |
 | CommercialDocument - DocumentVisibility | 1 a 1 | Cada documento tiene reglas de visibilidad para el comprador. |
 
-### Traceability Matrix: Requirements and Object-Oriented Design
+#### Traceability Matrix: Requirements and Object-Oriented Design
 
 La siguiente matriz conecta las principales user stories con las clases responsables de soportarlas.
 
