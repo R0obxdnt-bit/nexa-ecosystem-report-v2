@@ -25,7 +25,7 @@ Cada elemento del sitio público mantiene continuidad con una capacidad del prod
 | FAQ | Reducir fricción antes de solicitar una demostración | Responde dudas sobre implementación, seguridad, datos, alcance y contacto | Landing Page |
 | Footer / Contact support | Ofrecer canales de contacto, navegación de soporte y acceso a redes sociales | Facilita acceso a email, contacto, FAQ, soluciones y canales de confianza | Landing Page |
 
-### Decisiones UI aplicadas en la Landing Page
+#### Decisiones UI aplicadas en la Landing Page
 
 | Decisión de diseño | Aplicación en la Landing Page | Relación con arquitectura de información |
 |---|---|---|
@@ -154,7 +154,7 @@ Las capturas corresponden al recorrido principal en **Desktop Web Browser** y a 
 
 ![Mockups de landing page](../assets/images/chapter-4/landing/mockups/desktop/landing-page.png)
 
-> Nota: Mockups de la version de escritorio de la landing page. Elaboración propia.
+> *Nota:* Mockups de la version de escritorio de la landing page. Elaboración propia.
 
 #### B. Mobile Web Browser
 
