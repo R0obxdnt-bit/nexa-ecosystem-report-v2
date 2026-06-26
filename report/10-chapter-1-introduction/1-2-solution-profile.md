@@ -15,11 +15,13 @@ La cadena de frío cumple un rol crítico en sectores como alimentos, productos 
 | Supermercado 4 | 2.99 | 3.78 | 4.24 | 5.63 | 4.45 | 4.22 |
 
 </div>
+
 > *Nota:* La normativa para productos cárnicos refrigerados estipula una temperatura máxima de 4 °C. Los datos muestran abusos severos y constantes en la cadena de frío, particularmente en los supermercados 1 y 3. Adaptado de "Evaluación de la cadena de frío en cortes de res vendida en supermercados" por P. Arriaga-Lorenzo et al., 2023, Revista Chapingo Serie Agricultura Tropical, 3(1), p. 20.
 
 En el contexto peruano, investigaciones en salud y logística evidencian que las rupturas de cadena de frío no son un fenómeno aislado: por ejemplo, un estudio en establecimientos de salud de la Microred Río Negro registró múltiples excursiones térmicas por encima y por debajo de los rangos aceptables, con implicancias directas en la calidad de biológicos. Como se observa en la siguiente tabla, los incidentes de pérdida de temperatura son una constante mensual, evidenciando la alta vulnerabilidad operativa del ecosistema logístico del frío en el país.
 
 *Rupturas de cadena de frío por meses según tipo de desviación térmica en establecimientos de salud*
+
 <div align="center">
   
 | Mes | < 0°C (Congelación) | > 8°C (Sobrecalentamiento) | Total de Rupturas |
@@ -245,7 +247,7 @@ El protocolo de validación define cómo se evaluará la viabilidad y utilidad d
 
 >*Nota:* El protocolo se ejecutará en sesiones controladas e individuales de pruebas de usuario para garantizar la consistencia en la captura de métricas. Elaboración propia.
 
-*Tabla. Relación entre problema central, segmentos, hipótesis y métricas*
+*Relación entre problema central, segmentos, hipótesis y métricas*
 
 | Elemento | S1: Commercial Coordination | S2: Operations / Account Owner | S3: B2B Buyer |
 |---|---|---|---|
