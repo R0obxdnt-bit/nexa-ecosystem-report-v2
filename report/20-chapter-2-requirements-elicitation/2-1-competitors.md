@@ -36,7 +36,7 @@ El objetivo no es descalificar a estas plataformas, sino identificar con precisi
 
 El análisis competitivo permite comparar a Nexa frente a soluciones que cubren partes distintas del flujo comercial-operativo. La pregunta principal que guía este análisis es: **¿cómo puede Nexa diferenciarse de plataformas B2B, logísticas, de telemetría y ERP al enfocarse en la coordinación integral del pedido refrigerado desde la solicitud hasta el seguimiento y cierre documental?**
 
-*Tabla. Competitive Analysis Landscape*
+*Competitive Analysis Landscape*
 
 | Criterio | Nexa<br><img src="../assets/images/chapter-2/competitors/logo-nexa.svg" alt="Logo NEXA" width="90"/> | Riqra<br><img src="../assets/images/chapter-2/competitors/logo-riqra.png" alt="Logo Riqra" width="90"/> | Drivin<br><img src="../assets/images/chapter-2/competitors/logo-drivin.png" alt="Logo Drivin" width="90"/> | OnTracking / RedGPS<br><img src="../assets/images/chapter-2/competitors/logo-ontracking-redgps.png" alt="Logo OnTracking RedGPS" width="90"/> | Defontana<br><img src="../assets/images/chapter-2/competitors/logo-defontana.jpg" alt="Logo Defontana" width="90"/> |
 |---|---|---|---|---|---|
@@ -82,14 +82,14 @@ El posicionamiento de Nexa se orienta a cubrir una brecha específica: conectar 
 
 Por ello, las estrategias no se plantean como una competencia directa en todos los frentes, sino como una diferenciación por enfoque, simplicidad operativa y trazabilidad en cadena de frío.
 
-*Tabla. Estrategias y tácticas frente a competidores*
+*Estrategias y tácticas frente a competidores*
 
 | Competidor / referente | Fortaleza del competidor | Debilidad u oportunidad identificada | Estrategia de Nexa | Tácticas preliminares |
 |---|---|---|---|---|
-| Riqra | Fuerte enfoque en comercio B2B, catálogo digital y autogestión de pedidos. | Puede concentrarse principalmente en la capa comercial si no conecta profundamente con inventario perecedero, FEFO, despacho, documentos y POD. | Diferenciarse como una plataforma que no solo recibe pedidos B2B, sino que conecta el pedido con operación, inventario, documentos y seguimiento. | Priorizar Request Builder, Purchase Requests, Purchase Orders, Product Catalog, Business Documents y tracking del pedido. |
-| Drivin | Fortaleza en planificación logística, rutas, flota, entregas y prueba de entrega. | Opera principalmente después de que el pedido ya existe; no resuelve la captura comercial ni la validación inicial del pedido. | Posicionarse como la capa previa y complementaria que estructura el pedido antes de que llegue a despacho. | Diseñar un flujo claro entre solicitud, validación comercial, inventario y dispatch order, dejando abierta una futura integración logística. |
-| OnTracking / RedGPS | Fortaleza en rastreo, telemetría, sensores, GPS y monitoreo físico de transporte. | Se enfoca en la trazabilidad física del vehículo, pero no en la lógica comercial, documental ni de coordinación del pedido. | Diferenciarse por trazabilidad comercial-operativa, no por hardware o monitoreo físico avanzado en el MVP. | Registrar estados del pedido, evidencias, documentos y seguimiento visible para operación y comprador, sin depender inicialmente de sensores IoT. |
-| Defontana | Amplia cobertura como ERP para ventas, compras, inventario, facturación, clientes y administración. | Su amplitud puede implicar mayor complejidad para empresas que necesitan resolver primero un flujo concreto de pedidos refrigerados. | Reducir la complejidad tipo ERP mediante una experiencia más enfocada en el flujo comercial-operativo de cadena de frío. | Priorizar una webapp SaaS con módulos mínimos de clientes, solicitudes, pedidos, inventario básico, documentos, despacho y administración del tenant. |
+| Riqra<br><img src="../assets/images/chapter-2/competitors/logo-riqra.png" alt="Logo Riqra" width="90"/> | Fuerte enfoque en comercio B2B, catálogo digital y autogestión de pedidos. | Puede concentrarse principalmente en la capa comercial si no conecta profundamente con inventario perecedero, FEFO, despacho, documentos y POD. | Diferenciarse como una plataforma que no solo recibe pedidos B2B, sino que conecta el pedido con operación, inventario, documentos y seguimiento. | Priorizar Request Builder, Purchase Requests, Purchase Orders, Product Catalog, Business Documents y tracking del pedido. |
+| Drivin<br><img src="../assets/images/chapter-2/competitors/logo-drivin.png" alt="Logo Drivin" width="90"/> | Fortaleza en planificación logística, rutas, flota, entregas y prueba de entrega. | Opera principalmente después de que el pedido ya existe; no resuelve la captura comercial ni la validación inicial del pedido. | Posicionarse como la capa previa y complementaria que estructura el pedido antes de que llegue a despacho. | Diseñar un flujo claro entre solicitud, validación comercial, inventario y dispatch order, dejando abierta una futura integración logística. |
+| OnTracking / RedGPS<br><img src="../assets/images/chapter-2/competitors/logo-ontracking-redgps.png" alt="Logo OnTracking RedGPS" width="90"/> | Fortaleza en rastreo, telemetría, sensores, GPS y monitoreo físico de transporte. | Se enfoca en la trazabilidad física del vehículo, pero no en la lógica comercial, documental ni de coordinación del pedido. | Diferenciarse por trazabilidad comercial-operativa, no por hardware o monitoreo físico avanzado en el MVP. | Registrar estados del pedido, evidencias, documentos y seguimiento visible para operación y comprador, sin depender inicialmente de sensores IoT. |
+| Defontana<br><img src="../assets/images/chapter-2/competitors/logo-defontana.jpg" alt="Logo Defontana" width="90"/> | Amplia cobertura como ERP para ventas, compras, inventario, facturación, clientes y administración. | Su amplitud puede implicar mayor complejidad para empresas que necesitan resolver primero un flujo concreto de pedidos refrigerados. | Reducir la complejidad tipo ERP mediante una experiencia más enfocada en el flujo comercial-operativo de cadena de frío. | Priorizar una webapp SaaS con módulos mínimos de clientes, solicitudes, pedidos, inventario básico, documentos, despacho y administración del tenant. |
 
 >*Nota*: La tabla resume cómo Nexa puede enfrentar fortalezas competitivas, aprovechar debilidades y definir tácticas preliminares desde su enfoque SaaS B2B especializado en cadena de frío. Elaboración propia.
 
@@ -97,7 +97,7 @@ Por ello, las estrategias no se plantean como una competencia directa en todos l
 
 La principal estrategia competitiva de Nexa consiste en ubicarse entre tres tipos de soluciones: plataformas B2B centradas en venta, sistemas logísticos centrados en despacho y ERPs amplios centrados en administración empresarial. Esta posición permite presentar a Nexa como una alternativa especializada para empresas que necesitan ordenar el flujo del pedido refrigerado sin adoptar desde el inicio una solución demasiado compleja o fragmentada.
 
-*Tabla. Síntesis estratégica de diferenciación*
+*Síntesis estratégica de diferenciación*
 
 | Eje estratégico | Aplicación en Nexa | Resultado esperado |
 |---|---|---|
