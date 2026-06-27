@@ -2,9 +2,9 @@
 
 El equipo utiliza términos canónicos en inglés para mantener una comprensión compartida del dominio de Nexa entre entrevistas, needfinding, event storming, historias de usuario, backlog, diseño de producto y arquitectura de dominio. La traducción al español se incluye para facilitar la lectura del reporte por parte de stakeholders y evaluadores.
 
-La selección de términos cubre los tres segmentos del producto: Segmento 1 — Commercial Coordination, Segmento 2 — Operations / Account Owner y Segmento 3 — B2B Buyer Portal. El glosario prioriza conceptos propios del flujo comercial-operativo de distribución B2B de productos refrigerados: solicitud, validación, pedido, inventario, despacho, documentos, seguimiento y cierre de entrega.
+La selección de términos cubre los tres segmentos del producto: Segmento 1 - Commercial Coordination, Segmento 2 - Operations / Account Owner y Segmento 3 - B2B Buyer Portal. El glosario prioriza conceptos propios del flujo comercial-operativo de distribución B2B de productos refrigerados: solicitud, validación, pedido, inventario, despacho, documentos, seguimiento y cierre de entrega.
 
-*Glosario de Lenguaje Ubicuo — Dominio: Distribución B2B de productos refrigerados*
+*Glosario de Lenguaje Ubicuo - Dominio: Distribución B2B de productos refrigerados*
 
 | Término Canónico (EN) | Traducción (ES) | Definición en Nexa | Uso / Contexto |
 |---|---|---|---|
@@ -63,4 +63,4 @@ La selección de términos cubre los tres segmentos del producto: Segmento 1 —
 | **Promotion** | Promoción | Condición comercial temporal asociada a productos, categorías o compradores específicos | Permite activar oportunidades comerciales dentro del catálogo |
 | **Buyer Engagement** | Relación con comprador | Acciones orientadas a mantener comunicación, confianza y recurrencia del comprador B2B | Asociado a catálogo, solicitudes, promociones, seguimiento y documentos |
 
-Este glosario reduce ambigüedad entre entrevistas, needfinding, EventStorming, historias de usuario, backlog y diseño de dominio. Su propósito es mantener consistencia en la forma en que el equipo describe el flujo comercial-operativo de Nexa y las responsabilidades de Segmento 1, Segmento 2 y Segmento 3.
+Este glosario reduce ambigüedad entre entrevistas, needfinding, EventStorming, historias de usuario, backlog y diseño de dominio. Su propósito es mantener consistencia en la forma en que el equipo describe el flujo comercial-operativo de Nexa y las responsabilidades de los segmentos 1, 2 y 3.
