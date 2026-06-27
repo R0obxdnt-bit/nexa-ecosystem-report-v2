@@ -1,8 +1,8 @@
-## 5.2.1. Sprint 1
+### 5.2.1. Sprint 1
 
 El Sprint 1 corresponde a la línea base AV1. El objetivo fue establecer la estructura Docs-as-Code del informe, documentar los primeros artefactos de discovery y diseño, y publicar la Landing Page como primer incremento visible del producto. La evidencia se organiza en planificación, backlog, commits, ejecución, despliegue y colaboración.
 
-### 5.2.1.1. Sprint Planning 1.
+#### 5.2.1.1. Sprint Planning 1.
 
 La planificación del Sprint 1 organizó la base documental, visual y pública del proyecto. El alcance del sprint se concentró en Landing Page, reporte Docs-as-Code, Product Backlog inicial, User Stories, discovery y artefactos de diseño.
 
@@ -26,7 +26,7 @@ La planificación del Sprint 1 organizó la base documental, visual y pública d
 
 Figura. Reunión virtual del equipo para coordinación de Sprint 1.
 
-### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 La ejecución del sprint evidencia una distribución funcional del liderazgo. En lugar de concentrar toda la iteración en un único perfil, el equipo repartió la responsabilidad entre dominio, diseño, arquitectura, documentación y construcción visible del sitio. Esta organización es consistente con el Student Outcome ABET 5 y explica por qué el incremento AV1 combina trabajo público demostrable con profundidad ingenieril.
 
@@ -40,13 +40,13 @@ La ejecución del sprint evidencia una distribución funcional del liderazgo. En
 | Torrejón De Los Santos, Gino Rodrigo | R0obxdnt-bit | C | C | C | C | L |
 | Rojas Mancilla, Gerard Gianpier | GerardRojasMancilla | C | C | L | L | C |
 
-### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog 1 concentra el trabajo realizado entre el **2026-04-01 y 2026-04-24**. El objetivo principal del sprint fue construir la base documental del proyecto, organizar el trabajo bajo Docs-as-Code y consolidar el primer entregable visible mediante el Landing Page, junto con los artefactos iniciales de investigación, diseño y backlog.
 
 ![Sprint Backlog 1 en Jira](../../assets/images/chapter-5/sprint-evidence/jira/sprint-1-backlog-jira.png)
 
-> *Nota.* La captura muestra la planificación actualizada del Sprint 1 en Jira, incluyendo User Stories, work-items, responsables, estados y estimaciones utilizadas para la trazabilidad del incremento inicial. Elaboración propia.
+> *Nota:* La captura muestra la planificación actualizada del Sprint 1 en Jira, incluyendo User Stories, work-items, responsables, estados y estimaciones utilizadas para la trazabilidad del incremento inicial. Elaboración propia.
 
 **URL del Jira Backlog — Proyecto Nexa:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
 
@@ -86,9 +86,9 @@ La siguiente tabla presenta los User Stories asignados al Sprint 1 y los Work-it
 | Sprint 1 | N/A | Desplegar Landing Page en hosting estático | NX-544 | Publicar Landing Page | Desplegar el Landing Page para disponer de una evidencia pública del primer incremento. | 7.0 | Diego Yucra Sandoval | Done |
 
 
-Nota. Las estimaciones se registran en horas para el control del Sprint Backlog, mientras que la priorización general del Product Backlog se mantiene en Story Points. Elaboración propia.
+> *Nota:* Las estimaciones se registran en horas para el control del Sprint Backlog, mientras que la priorización general del Product Backlog se mantiene en Story Points. Elaboración propia.
 
-### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 La evidencia de desarrollo del Sprint 1 corresponde al alcance AV1: estructura Docs-as-Code del informe, documentación inicial del producto, artefactos de discovery, arquitectura base y primera versión del Landing Page. Por ello, la evidencia se concentra en los repositorios `nexa-ecosystem-report` y `nexa-website`.
 
@@ -177,7 +177,7 @@ La ejecución visible del sprint ya se materializa en una landing page pública 
 
 Al mismo tiempo, la ejecución debe leerse con honestidad de alcance: el portal B2B autenticado, la captura transaccional de pedidos, el catálogo privado, la autenticación y el seguimiento operativo aún no forman parte del incremento entregado. Su presencia en backlog y en arquitectura demuestra preparación, pero no debe confundirse con ejecución completada dentro de AV1.
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 La documentación de servicios en AV1 existe principalmente como **evidencia de diseño y preparación técnica**. El backlog ya incorpora historias de API y documentación (`NX-138`, además de las historias técnicas del bloque US58-US64), mientras que el capítulo 4 conserva la arquitectura DDD/C4, el diseño orientado a objetos y la base de datos que servirán de soporte a una fase posterior. Esta base es válida como sustento de ingeniería, porque muestra contratos previstos, separación de capas y reglas de negocio modeladas antes de implementar controladores productivos.
 
@@ -209,7 +209,7 @@ La evidencia de despliegue de AV1 sí existe, pero está concentrada en el frent
 
 Esta lectura permite defender el despliegue con precisión: Nexa ya tiene una capa pública activa y demostrable, pero la capa transaccional aún debe presentarse como roadmap técnico respaldado por backlog y arquitectura, no como despliegue concluido ni como parte del alcance observable de esta entrega.
 
-### 5.2.1.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 El Sprint 1 distribuyó responsabilidades entre investigación, UX/UI, implementación pública, arquitectura y documentación. Esta organización permitió avanzar en paralelo sin separar el reporte del software visible.
 
