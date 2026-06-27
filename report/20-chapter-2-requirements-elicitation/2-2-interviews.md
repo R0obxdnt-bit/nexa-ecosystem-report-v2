@@ -185,6 +185,7 @@ Además de las capturas integradas en el informe, el archivo audiovisual origina
 - **Apellidos:** Silva Leca
 - **Edad:** 42 años
 - **Distrito:** Chorrillos
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Lorena Silva*
 
@@ -210,6 +211,7 @@ A nivel técnico, reporta fricciones severas con el sistema actual (Defontana), 
 - **Apellidos:** Levano Asca
 - **Edad:** 39 años
 - **Distrito:** Lurín
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Cinthia Levano*
 
@@ -235,6 +237,7 @@ Cinthia enfatiza la necesidad de simplicidad. Describe su flujo actual como una 
 - **Apellidos:** Pérez Huaman
 - **Edad:** 51 años
 - **Distrito:** San Miguel
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Celia Pérez*
 
@@ -262,6 +265,7 @@ Su testimonio confirma que, para el personal en ruta, la estabilidad de la conex
 - **Apellidos:** Litano Ramos
 - **Edad:** 47 años
 - **Distrito:** Villa El Salvador
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Hilda Litano*
 
@@ -285,6 +289,7 @@ Hilda Litano supervisa procesos de importación y cumplimiento sanitario. Su enf
 - **Apellidos:** Taype Peñaloza
 - **Edad:** 49 años
 - **Distrito:** Callao
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Edith Taype*
 
@@ -308,6 +313,7 @@ Edith Taype opera en el punto de venta (supermercados), donde la manipulación y
 - **Apellidos:** Sandoval Romero
 - **Edad:** 48 años
 - **Distrito:** Jesús María
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Jesica Sandoval*
 
@@ -335,6 +341,7 @@ S3 se mantiene como segmento objetivo válido porque representa al comprador ext
 - **Apellidos:** Puente Arnao
 - **Edad:** 56 años
 - **Distrito:** San Isidro
+- **Dispositivos:** iOS y MacOS
 
 *Evidencia de entrevista: Pedro Puente*
 
@@ -358,6 +365,7 @@ Pedro Puente es un distribuidor cuya mayor frustración es la incertidumbre log�
 - **Apellidos:** García Robles
 - **Edad:** 49 años
 - **Distrito:** San Borja
+- **Dispositivos:** Android y Windows
 
 *Evidencia de entrevista: Henrry García*
 
