@@ -20,8 +20,8 @@ La planificación del Sprint 3 organizó el avance AV2 por segmento, integrando 
 | Sprint 2 Retrospective Summary | El equipo identificó la necesidad de separar con mayor claridad la simulación frontend de la API interna objetivo, reforzando la foundation backend y la trazabilidad técnica del repositorio `nexa-platform`. |
 | **Sprint Goal & User Stories** | Sprint 3 planning summary |
 | Sprint 3 Goal | **Nuestro foco está en** ofrecer una experiencia más clara para los visitantes interesados en Nexa, una experiencia de compra más autónoma para los compradores B2B, y una operación más trazable para el personal de empresas distribuidoras. **Creemos que esto** entrega una comprensión más rápida de la propuesta de valor a los visitantes que necesitan conocer cómo Nexa ayuda a organizar la distribución de productos refrigerados; mayor independencia a los compradores B2B que necesitan explorar el catálogo, revisar información de sus pedidos y consultar el estado de sus documentos sin depender de coordinación manual; y mayor visibilidad operativa al personal distribuidor que necesita administrar productos, disponibilidad, órdenes y despachos con información centralizada y consistente. **Esto se confirmará cuando** los visitantes puedan identificar los beneficios de Nexa y acceder al punto de entrada adecuado desde el Landing Page; cuando los compradores B2B puedan consultar productos refrigerados, revisar sus órdenes, seguir el estado de despacho y visualizar información documental desde la Web Application; y cuando el personal operativo pueda gestionar y revisar catálogo, inventario, órdenes y despachos con trazabilidad suficiente para tomar decisiones durante el flujo comercial y logístico.| 
-| Sprint 3 Velocity | 213 horas completadas |
-| Sum of Hours | 213 horas |
+| Sprint 3 Velocity | 241 horas completadas |
+| Sum of Hours | 241 horas |
 
 > *Nota:* El dato se obtiene del Sprint Backlog 3 en Jira, donde la estimación visible del sprint registra `213 de 213`. Para mantener consistencia con la métrica solicitada para Sprint 3 y con la columna `Estimation (Hours)` del Sprint Backlog, el valor se expresa como `213 horas`.
 
