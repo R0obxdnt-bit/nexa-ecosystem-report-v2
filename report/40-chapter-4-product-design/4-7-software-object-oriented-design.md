@@ -238,4 +238,5 @@ La siguiente matriz conecta las principales user stories con las clases responsa
 | US88 | Revisar documentos comerciales | Invoicing | CommercialDocument | listBySalesOrder(), markAsReviewed() |
 | US90 | Consultar documentos comerciales referenciales visibles | Invoicing | CommercialDocument | isVisibleForBuyer(), getDocumentHistory() |
 | US92 | Consultar estado de pago de la orden | Invoicing | PaymentStatus | getCurrentStatus(), isActionRequired() |
+
 El diseño orientado a objetos evita dependencias circulares entre bounded contexts. Catalog Management posee la información de productos, Sales posee las solicitudes de compra y órdenes de venta, Warehouse posee las reservas de inventario, Logistics posee la trazabilidad del despacho e Invoicing posee los documentos comerciales y la visibilidad de pagos.
