@@ -21,17 +21,7 @@ Nexa funciona bajo un modelo Multi tenant SaaS orientado a empresas B2B de caden
 
 > *Nota:* La tabla aclara cómo se organiza el modelo Multi tenant SaaS de Nexa. Elaboración propia.
 
-#### ***Resumen de Segmentos Objetivo***
-
-*Resumen comparativo de segmentos objetivo de Nexa*
-
-| Segmento objetivo | Quién es | Problema / trabajo principal | Participación dentro de Nexa |
-|---|---|---|---|
-| **Segmento 1: Commercial Coordination** | Vendedoras o coordinadoras comerciales de la importadora/distribuidora. | Reciben pedidos por WhatsApp, llamada, Excel o portal; validan cliente, stock, crédito y documentos; convierten solicitudes en pedidos. | Ordena la entrada comercial del pedido y reduce errores antes de trasladar la solicitud hacia operación. |
-| **Segmento 2: Operations / Account Owner** | Logística, jefatura de operaciones, responsable de almacén o responsable interno de la empresa contratante. | Controlan inventario, lotes, FEFO, despachos, evidencias, documentos operativos, promociones, portales externos, administración de empresa, suscripción y accesos. | Asegura que el pedido pueda ejecutarse con disponibilidad real, trazabilidad operativa y administración centralizada del tenant. |
-| **Segmento 3: B2B Buyer Portal** | Cliente comprador B2B: restaurante, supermercado, retail, comprador mayorista o comprador minorista. | Consulta catálogo, arma solicitudes, revisa estado, conversa con el segmento 1, descarga documentos y sigue el despacho de sus pedidos. | Representa la demanda externa y permite validar si la experiencia de compra reduce incertidumbre para el comprador B2B. |
-
-> *Nota:* La tabla sintetiza la segmentación de Nexa y conecta cada segmento con su problema principal dentro del flujo comercial-operativo. Elaboración propia.
+A partir de estas reglas, los segmentos se entienden como actores complementarios dentro del flujo comercial-operativo de Nexa. El segmento 3 origina la demanda, el segmento 1 ordena y valida la información comercial, y el segmento 2 asegura la ejecución operativa dentro del tenant.
 
 *Flujo de interacción entre los segmentos objetivo*
 
