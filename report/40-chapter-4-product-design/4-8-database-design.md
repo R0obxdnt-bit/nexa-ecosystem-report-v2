@@ -220,6 +220,11 @@ Los read models consolidan información de los contextos principales para mejora
 
  > *Nota:* El diagrama completo de base de datos consolida las principales estructuras relacionales requeridas por los cinco bounded contexts y las capacidades de soporte transversal. Elaboración propia.
 
+Los diagramas de base de datos utilizados en esta sección fueron elaborados en Lucidchart. El enlace completo para consultar los database diagrams es el siguiente:
+
+https://lucid.app/lucidchart/59a20e35-1812-46de-ab32-b732d6c47650/edit?viewport_loc=-9787%2C-2175%2C20388%2C10438%2C0_0&invitationId=inv_d09f7dfb-47e4-4621-a80e-a33b66489322
+
+
 La siguiente tabla resume la agrupación completa de base de datos:
 
 | Contexto / área de soporte | Tablas principales | Relaciones principales | Propósito |
