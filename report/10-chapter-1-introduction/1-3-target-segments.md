@@ -21,95 +21,6 @@ Nexa funciona bajo un modelo Multi tenant SaaS orientado a empresas B2B de caden
 
 > *Nota:* La tabla aclara cómo se organiza el modelo Multi tenant SaaS de Nexa. Elaboración propia.
 
-A partir de estas reglas, los segmentos se entienden como actores complementarios dentro del flujo comercial-operativo de Nexa. El B2B Buyer origina la demanda, el rol de Sales ordena y valida la información comercial, el rol de Logistics / Operations asegura la ejecución operativa dentro del tenant, y el Company Owner administra el workspace, usuarios, permisos y configuración general de la empresa contratante.
-
-*Flujo de interacción entre los segmentos objetivo*
-
-```mermaid
-flowchart LR
-    BUYER["B2B Buyer<br/>Catalog, requests, tracking and documents"]
-    SALES["Sales<br/>Validation, order conversion and documentation"]
-    OPS["Logistics / Operations<br/>Inventory, dispatch, and physical controls"]
-    OWNER["Company Owner<br/>Tenant administration, users, permissions and settings"]
-
-    BUYER -->|Product catalog, purchase request, tracking and business documents| SALES
-    SALES -->|Purchase requests, purchase orders, business documents and B2B clients| OPS
-    OPS -->|Inventory control, dispatch orders, POD and promotions| SALES
-    SALES -->|Confirmation, status and commercial communication| BUYER
-    OWNER -->|Workspace configuration, users and permissions| SALES
-    OWNER -->|Workspace configuration, users and permissions| OPS
-```
-
-> *Nota:* El gráfico representa la relación transversal entre el comprador B2B, la coordinación comercial y la operación interna de la empresa contratante. Elaboración propia.
-
-### Flujo integrado de Nexa
-
-El flujo base de Nexa inicia cuando un comprador B2B genera una solicitud desde el portal o cuando el equipo comercial registra manualmente un pedido recibido por canales tradicionales. A partir de ese punto, la plataforma permite ordenar la validación comercial, convertir la solicitud en un pedido confirmado, coordinar la reserva de inventario, preparar el despacho, gestionar documentos y ofrecer seguimiento al comprador.
-
-Este flujo permite conectar los cuatro roles sin tratarlos como experiencias aisladas. El B2B Buyer origina o consulta la solicitud, el rol de Sales valida y ordena la información comercial, el rol de Logistics / Operations asegura que la operación pueda ejecutarse con inventario, preparación, despacho, evidencias y documentación, y el Company Owner administra el entorno global del tenant para asegurar el correcto funcionamiento del workspace.
-
-*Recorrido integrado del pedido en Nexa*
-
-```mermaid
-flowchart TD
-    P1["1. Entrada de pedido<br/>El B2B Buyer solicita desde el portal o el rol de Sales registra un pedido manual"]
-    P2["2. Validación comercial<br/>El rol de Sales revisa cliente, crédito, stock, dirección y documentos"]
-    P3["3. Conversión a pedido confirmado<br/>El rol de Sales convierte la solicitud validada en un pedido trazable"]
-    P4["4. Reserva e inventario<br/>El rol de Logistics / Operations valida lotes, FEFO, disponibilidad real y prioridad"]
-    P5["5. Preparación de despacho<br/>El rol de Logistics / Operations prepara ruta, responsable, estado y evidencias"]
-    P6["6. Gestión documental<br/>Los roles de Sales y Logistics / Operations gestionan guía, factura referencial, XML, CDR y evidencias"]
-    P7["7. Seguimiento y cierre<br/>El B2B Buyer revisa tracking, documentos, comentarios y alertas"]
-
-    P1 --> P2
-    P2 --> P3
-    P3 --> P4
-    P4 --> P5
-    P5 --> P6
-    P6 --> P7
-```
-
-> *Nota:* El gráfico resume el recorrido completo del pedido dentro de Nexa, desde la entrada de la solicitud hasta el seguimiento final del comprador. Elaboración propia.
-
-### Sustento demográfico y estadístico
-
-El dominio de Nexa se ubica en la distribución B2B de productos refrigerados y congelados, donde la coordinación entre ventas, logística y compradores comerciales todavía depende de canales informales, validaciones manuales y registros dispersos. Esta situación es especialmente crítica porque el pedido no solo contiene una intención de compra: también activa decisiones de disponibilidad, inventario, rotación, preparación, despacho, documentación y seguimiento.
-
-El sustento estadístico permite justificar por qué los actores del ecosistema son relevantes para el proyecto. Según Lucky-Xplora (2022), el 83% de las bodegas del canal tradicional se encuentra en un nivel principiante de madurez digital, mientras que solo alrededor del 28% utiliza alguna aplicación para gestionar tareas del negocio. Este dato refuerza la importancia del B2B Buyer, ya que el comprador comercial B2B necesita una experiencia simple, clara y cercana a sus hábitos actuales de compra.
-
-Además, la problemática de cadena de frío exige control operativo y trazabilidad. Bravo De la Cruz et al. (2025) reportan 64 incidentes de ruptura de cadena de frío en establecimientos de una microred de salud durante un año, lo que evidencia que la falta de control, trazabilidad y coordinación puede convertirse en un riesgo operativo recurrente. Este punto refuerza la importancia del rol de Logistics / Operations, porque logística y operación deben convertir la solicitud comercial en una operación viable, controlada y trazable.
-
-En paralelo, la captura comercial sigue siendo un punto sensible del flujo. Cuando los pedidos llegan por WhatsApp, llamada, audio, Excel o listas informales, la vendedora o coordinadora comercial debe interpretar información incompleta y trasladarla hacia operación. Por ello, el rol de Sales es crítico: si el pedido nace desordenado, el error se propaga hacia inventario, preparación, despacho, documentos y atención posterior. Por último, para sostener esta interacción multi-tenant con seguridad, el Company Owner debe centralizar la administración de empresa y usuarios.
-
-*Lectura visual del sustento de segmentación*
-
-```mermaid
-mindmap
-  root((Actores de Nexa))
-    Sales
-      Captura comercial
-      WhatsApp llamadas y Excel
-      Validación manual
-      Conversión de solicitudes
-      Retrabajo
-    Logistics / Operations
-      Inventario y lotes
-      FEFO
-      Despacho
-      Evidencias y POD
-    Company Owner
-      Administración de empresa
-      Tenant y workspace
-      Accesos y configuración
-    B2B Buyer
-      Compra recurrente
-      Catálogo
-      Solicitudes
-      Tracking
-      Documentos
-```
-
-> *Nota:* El gráfico resume los focos de fricción que justifican cada segmento dentro del dominio comercial-operativo de Nexa. Elaboración propia.
-
 ### Análisis detallado por segmento
 
 #### Sales
@@ -436,6 +347,95 @@ De esta manera, el rol de B2B Buyer valida que Nexa no solo ordena el trabajo in
 | Puede desconfiar de un canal impersonal. | Soporte o contacto humano complementario durante el flujo. | Porcentaje de pedidos digitales que no requieren llamada adicional. |
 
 > *Nota:* Conecta los principales dolores de B2B Buyer con respuestas funcionales y métricas futuras de validación. Elaboración propia.
+
+A partir de estas reglas, los segmentos se entienden como actores complementarios dentro del flujo comercial-operativo de Nexa. El B2B Buyer origina la demanda, el rol de Sales ordena y valida la información comercial, el rol de Logistics / Operations asegura la ejecución operativa dentro del tenant, y el Company Owner administra el workspace, usuarios, permisos y configuración general de la empresa contratante.
+
+*Flujo de interacción entre los segmentos objetivo*
+
+```mermaid
+flowchart LR
+    BUYER["B2B Buyer<br/>Catalog, requests, tracking and documents"]
+    SALES["Sales<br/>Validation, order conversion and documentation"]
+    OPS["Logistics / Operations<br/>Inventory, dispatch, and physical controls"]
+    OWNER["Company Owner<br/>Tenant administration, users, permissions and settings"]
+
+    BUYER -->|Product catalog, purchase request, tracking and business documents| SALES
+    SALES -->|Purchase requests, purchase orders, business documents and B2B clients| OPS
+    OPS -->|Inventory control, dispatch orders, POD and promotions| SALES
+    SALES -->|Confirmation, status and commercial communication| BUYER
+    OWNER -->|Workspace configuration, users and permissions| SALES
+    OWNER -->|Workspace configuration, users and permissions| OPS
+```
+
+> *Nota:* El gráfico representa la relación transversal entre el comprador B2B, la coordinación comercial y la operación interna de la empresa contratante. Elaboración propia.
+
+### Flujo integrado de Nexa
+
+El flujo base de Nexa inicia cuando un comprador B2B genera una solicitud desde el portal o cuando el equipo comercial registra manualmente un pedido recibido por canales tradicionales. A partir de ese punto, la plataforma permite ordenar la validación comercial, convertir la solicitud en un pedido confirmado, coordinar la reserva de inventario, preparar el despacho, gestionar documentos y ofrecer seguimiento al comprador.
+
+Este flujo permite conectar los cuatro roles sin tratarlos como experiencias aisladas. El B2B Buyer origina o consulta la solicitud, el rol de Sales valida y ordena la información comercial, el rol de Logistics / Operations asegura que la operación pueda ejecutarse con inventario, preparación, despacho, evidencias y documentación, y el Company Owner administra el entorno global del tenant para asegurar el correcto funcionamiento del workspace.
+
+*Recorrido integrado del pedido en Nexa*
+
+```mermaid
+flowchart TD
+    P1["1. Entrada de pedido<br/>El B2B Buyer solicita desde el portal o el rol de Sales registra un pedido manual"]
+    P2["2. Validación comercial<br/>El rol de Sales revisa cliente, crédito, stock, dirección y documentos"]
+    P3["3. Conversión a pedido confirmado<br/>El rol de Sales convierte la solicitud validada en un pedido trazable"]
+    P4["4. Reserva e inventario<br/>El rol de Logistics / Operations valida lotes, FEFO, disponibilidad real y prioridad"]
+    P5["5. Preparación de despacho<br/>El rol de Logistics / Operations prepara ruta, responsable, estado y evidencias"]
+    P6["6. Gestión documental<br/>Los roles de Sales y Logistics / Operations gestionan guía, factura referencial, XML, CDR y evidencias"]
+    P7["7. Seguimiento y cierre<br/>El B2B Buyer revisa tracking, documentos, comentarios y alertas"]
+
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+    P4 --> P5
+    P5 --> P6
+    P6 --> P7
+```
+
+> *Nota:* El gráfico resume el recorrido completo del pedido dentro de Nexa, desde la entrada de la solicitud hasta el seguimiento final del comprador. Elaboración propia.
+
+### Sustento demográfico y estadístico
+
+El dominio de Nexa se ubica en la distribución B2B de productos refrigerados y congelados, donde la coordinación entre ventas, logística y compradores comerciales todavía depende de canales informales, validaciones manuales y registros dispersos. Esta situación es especialmente crítica porque el pedido no solo contiene una intención de compra: también activa decisiones de disponibilidad, inventario, rotación, preparación, despacho, documentación y seguimiento.
+
+El sustento estadístico permite justificar por qué los actores del ecosistema son relevantes para el proyecto. Según Lucky-Xplora (2022), el 83% de las bodegas del canal tradicional se encuentra en un nivel principiante de madurez digital, mientras que solo alrededor del 28% utiliza alguna aplicación para gestionar tareas del negocio. Este dato refuerza la importancia del B2B Buyer, ya que el comprador comercial B2B necesita una experiencia simple, clara y cercana a sus hábitos actuales de compra.
+
+Además, la problemática de cadena de frío exige control operativo y trazabilidad. Bravo De la Cruz et al. (2025) reportan 64 incidentes de ruptura de cadena de frío en establecimientos de una microred de salud durante un año, lo que evidencia que la falta de control, trazabilidad y coordinación puede convertirse en un riesgo operativo recurrente. Este punto refuerza la importancia del rol de Logistics / Operations, porque logística y operación deben convertir la solicitud comercial en una operación viable, controlada y trazable.
+
+En paralelo, la captura comercial sigue siendo un punto sensible del flujo. Cuando los pedidos llegan por WhatsApp, llamada, audio, Excel o listas informales, la vendedora o coordinadora comercial debe interpretar información incompleta y trasladarla hacia operación. Por ello, el rol de Sales es crítico: si el pedido nace desordenado, el error se propaga hacia inventario, preparación, despacho, documentos y atención posterior. Por último, para sostener esta interacción multi-tenant con seguridad, el Company Owner debe centralizar la administración de empresa y usuarios.
+
+*Lectura visual del sustento de segmentación*
+
+```mermaid
+mindmap
+  root((Actores de Nexa))
+    Sales
+      Captura comercial
+      WhatsApp llamadas y Excel
+      Validación manual
+      Conversión de solicitudes
+      Retrabajo
+    Logistics / Operations
+      Inventario y lotes
+      FEFO
+      Despacho
+      Evidencias y POD
+    Company Owner
+      Administración de empresa
+      Tenant y workspace
+      Accesos y configuración
+    B2B Buyer
+      Compra recurrente
+      Catálogo
+      Solicitudes
+      Tracking
+      Documentos
+```
+
+> *Nota:* El gráfico resume los focos de fricción que justifican cada segmento dentro del dominio comercial-operativo de Nexa. Elaboración propia.
 
 ### Impacto en el MVP y Métricas de Validación
 
