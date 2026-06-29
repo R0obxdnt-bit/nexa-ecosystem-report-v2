@@ -1,6 +1,6 @@
-## **1.2. Solution Profile**
+## 1.2. Solution Profile
 
-### ***1.2.1. Antecedentes y problemática***
+### 1.2.1. Antecedentes y problemática
 
 La cadena de frío cumple un rol crítico en sectores como alimentos, productos farmacéuticos y agroexportación, al asegurar que los productos sensibles a la temperatura mantengan su calidad e inocuidad durante el almacenamiento, transporte y distribución hasta el usuario final (Vértiz, 2011). Estudios en distintos países de la región muestran que fallas en uno o varios eslabones de la cadena de frío, especialmente en transporte y venta al por menor, se asocian con incumplimientos de normas de temperatura, proliferación microbiana y reducción de la vida útil de lácteos, carnes y otros perecederos (Tutiven et al., 2026; Arriaga et al., 2023). Al respecto, las investigaciones demuestran una constante fluctuación térmica en la comercialización de cortes de res, registrando temperaturas que superan ampliamente los límites normativos, como se evidencia en la siguiente tabla. Esta deficiencia subraya la necesidad de un control logístico riguroso y continuo antes de que el producto llegue al cliente comercial.
 
@@ -113,7 +113,7 @@ El problema identificado puede estructurarse mediante la técnica 5W2H, lo que p
 | How much | No se han identificado estudios que cuantifiquen de forma específica, para importadoras y distribuidoras de productos refrigerados en Perú, el costo total de los errores de pedido y la ineficiencia derivada de procesos manuales. Sin embargo, la evidencia disponible permite aproximar la magnitud del riesgo, estudios regionales documentan pérdidas logísticas significativas en perecederos, y alrededor del 83% de bodegas se ubica todavía en un nivel principiante de transformación digital. En conjunto, estos datos sugieren que el impacto económico y operativo potencial de mantener procesos manuales y no trazables es considerable, aunque todavía poco medido de forma sistemática. |
 > *Nota:* La matriz resume el problema ya desarrollado en los antecedentes y la problemática, pero conserva los datos e indicadores más relevantes para evitar que la síntesis reduzca el valor analítico de la sección.
 
-### ***1.2.2. Lean UX Process***
+### 1.2.2. Lean UX Process
 
 En este proyecto, el uso de Lean UX resulta pertinente porque el dominio combina restricciones comerciales, operativas y logísticas propias de la distribución B2B de productos refrigerados. El riesgo principal no consiste únicamente en desarrollar una aplicación web funcional, sino en comprobar si una experiencia digital mínima reduce la fricción en un flujo que actualmente depende de canales informales, registros manuales y sistemas no integrados.
 
@@ -123,7 +123,7 @@ El proceso Lean UX de Nexa se organiza alrededor de un único problema central: 
 
 Además, esta sección se conecta con el enfoque ágil del proyecto porque sus hipótesis permiten obtener aprendizaje temprano antes de ampliar el alcance del producto. En ese sentido, Lean UX funciona como una base de descubrimiento para orientar la visión del producto, la priorización del Product Backlog, la definición de User Stories y los criterios de validación que posteriormente serán contrastados con usuarios reales o representativos.
 
-#### **1.2.2.1. Lean UX Problem Statements**
+#### 1.2.2.1. Lean UX Problem Statements
 
 Para Nexa se define un único Lean UX Problem Statement, debido a que el proyecto no busca resolver problemas aislados por módulo, sino una misma fricción de negocio que atraviesa el flujo comercial-operativo: desde la solicitud inicial del comprador B2B hasta la validación comercial, la consulta de inventario, la preparación del pedido, el despacho, los documentos y el seguimiento.
 
@@ -141,7 +141,7 @@ La fragmentación actual del proceso afecta a cuatro roles principales. Sin emba
 | **Vision / strategy** | Evaluar si una experiencia digital mínima reduce la fricción en el flujo principal de pedidos B2B refrigerados, disminuyendo la dependencia de canales informales y permitiendo evaluar si los usuarios perciben valor antes de escalar el producto hacia integraciones avanzadas. |
 | **Initial segment** | La validación inicial debe comenzar con **Sales** y **Logistics / Operations**, porque ambos controlan el flujo interno que determina si el pedido puede estructurarse, validarse y ejecutarse correctamente. La validación con **B2B Buyer** permite comprobar la claridad del portal externo, mientras que **Company Owner** permite validar la administración del tenant, usuarios y permisos. |
 
->*Nota:* La tabla presenta un único Problem Statement central. Los roles de Sales, Logistics / Operations, Company Owner y B2B Buyer se mantienen como actores afectados por el mismo problema, no como problemas independientes por rol. Elaboración propia.
+> *Nota:* La tabla presenta un único Problem Statement central. Los roles de Sales, Logistics / Operations, Company Owner y B2B Buyer se mantienen como actores afectados por el mismo problema, no como problemas independientes por rol. Elaboración propia.
 
 #### Problem Statement central
 
@@ -160,9 +160,9 @@ La fragmentación actual del proceso afecta a cuatro roles principales. Sin emba
 | **Company Owner** | Debe controlar la organización contratante, usuarios internos, permisos, configuración del tenant/workspace y condiciones generales de operación. | Si la administración no está centralizada, la empresa pierde control sobre accesos, responsabilidades, visibilidad y configuración crítica. | Comprobar qué información mínima debe administrar el responsable de la empresa para mantener control del tenant sin complejizar la operación diaria. |
 | **B2B Buyer** | Depende de canales informales para consultar disponibilidad, confirmar pedidos, revisar documentos o conocer el estado del despacho. | Incertidumbre, baja autonomía, consultas repetitivas y menor confianza en la previsibilidad del abastecimiento. | Comprobar si una mayor visibilidad del pedido mejora la autonomía del comprador sin eliminar la necesidad de respaldo humano. |
 
->*Nota:* El desglose por actor permite conservar la información relevante de los segmentos sin fragmentar el Lean UX en problemas independientes por rol. Elaboración propia.
+> *Nota:* El desglose por actor permite conservar la información relevante de los segmentos sin fragmentar el Lean UX en problemas independientes por rol. Elaboración propia.
 
-#### **1.2.2.2. Lean UX Assumptions**
+#### 1.2.2.2. Lean UX Assumptions
 
 Las suposiciones de Nexa se formulan como ideas de trabajo que deben validarse antes de ampliar el alcance funcional del producto. Estas suposiciones no se consideran hechos comprobados; por el contrario, representan riesgos de negocio, usuario, producto, tecnología y mercado que el equipo debe contrastar mediante entrevistas, prototipos, pruebas de usabilidad y validación del MVP.
 
@@ -185,9 +185,9 @@ Para evitar una solución sobredimensionada, las assumptions se priorizan según
 | Baja | **Market / Channel** | Creemos que WhatsApp, llamadas y Excel seguirán siendo canales relevantes, por lo que Nexa debe reducir progresivamente su dependencia y no prometer eliminarlos desde la primera versión. | Sales, B2B Buyer | El mercado ya opera con plataformas digitales integradas y no necesita convivencia con canales informales. | Entrevistas sobre hábitos actuales de pedido y análisis de madurez digital del canal. |
 | Baja | **Market / Channel** | Creemos que las distribuidoras medianas son el segmento más viable para validar Nexa antes de escalar hacia empresas grandes o negocios más pequeños. | Sales, Logistics / Operations | Las empresas grandes ya tienen sistemas propios y las pequeñas no tienen presupuesto o madurez digital suficiente. | Demos exploratorias con perfiles del mercado objetivo y análisis de feedback inicial. |
 
->*Nota:* Las assumptions priorizadas permiten identificar qué debe aprender el equipo antes de ampliar el alcance del producto. Elaboración propia.
+> *Nota:* Las assumptions priorizadas permiten identificar qué debe aprender el equipo antes de ampliar el alcance del producto. Elaboración propia.
 
-#### **1.2.2.3. Lean UX Hypothesis Statements**
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 Las hipótesis de Nexa se derivan del Problem Statement central y no de módulos separados. Cada hipótesis valida una parte del mismo flujo comercial-operativo: la captura estructurada de la solicitud, la coordinación entre pedido e inventario, y la visibilidad del pedido para el comprador B2B.
 
@@ -202,7 +202,7 @@ Para mantener coherencia Lean UX y conexión con Scrum, las hipótesis se formul
 | **H3: Visibilidad y autonomía del comprador B2B** | Creemos que lograremos mejorar la confianza y autonomía del comprador B2B si B2B Buyer puede consultar catálogo, generar solicitudes, revisar pedidos, acceder a documentos y seguir el despacho desde un portal web. Sabremos que es cierto si el comprador completa estas tareas de manera autónoma con menor tasa de errores de captura y sin recurrir al baseline manual (llamadas o chats de consulta). | B2B Buyer, Sales | En un escenario de simulación, al menos 4 de 5 compradores B2B completan la consulta de catálogo, generación de solicitud y consulta de tracking de pedido y documentos sin asistencia crítica. Si la hipótesis falla, la decisión de aprendizaje será reestructurar el diseño de la interfaz del comprador, simplificar la terminología de estados y el buscador de productos. |
 | **H4: Adopción gradual frente a canales informales** | Creemos que Nexa será adoptado inicialmente por usuarios internos si Sales y Logistics / Operations pueden usar el flujo estructurado como apoyo operativo sin abandonar por completo WhatsApp, llamadas o Excel. Sabremos que es cierto si, después de comparar el flujo manual con el flujo propuesto, al menos 4 de 5 usuarios internos prefieren usar Nexa para pedidos recurrentes sin percibir aumento de tiempo ni pérdida de flexibilidad. | Sales, Logistics / Operations | En una prueba comparativa con un pedido recurrente simulado, al menos 4 de 5 usuarios internos prefieren el flujo Nexa como apoyo operativo, declaran una utilidad mínima de 4/5 y no reportan pérdida crítica de flexibilidad frente al proceso manual. Si la hipótesis falla, la decisión será flexibilizar el registro de datos permitiendo importaciones rápidas de información o un uso híbrido más laxo. |
 
->*Nota:* Las hipótesis se organizan alrededor de un único flujo de negocio. H1, H2 y H3 validan partes del recorrido, mientras que H4 valida la coherencia y adopción interna inicial. Elaboración propia.
+> *Nota:* Las hipótesis se organizan alrededor de un único flujo de negocio. H1, H2 y H3 validan partes del recorrido, mientras que H4 valida la coherencia y adopción interna inicial. Elaboración propia.
 
 *Definiciones operativas para la validación Lean UX*
 
@@ -214,9 +214,9 @@ Para mantener coherencia Lean UX y conexión con Scrum, las hipótesis se formul
 | **Ajuste manual** | Corrección posterior que requiere reinterpretar información, volver a contactar al usuario o rehacer parte del registro. |
 | **Preferencia de adopción** | Elección declarada del usuario entre flujo manual, flujo Nexa o uso híbrido, sustentada con una razón operativa. |
 
->*Nota:* Estas definiciones estandarizan las métricas que se utilizarán en las pruebas operativas durante el protocolo de validación. Elaboración propia.
+> *Nota:* Estas definiciones estandarizan las métricas que se utilizarán en las pruebas operativas durante el protocolo de validación. Elaboración propia.
 
-#### **1.2.2.4. Lean UX Canvas**
+#### 1.2.2.4. Lean UX Canvas
 
 El Lean UX Canvas de Nexa organiza el problema, los resultados esperados, los usuarios, los beneficios, las soluciones mínimas, las hipótesis, el aprendizaje prioritario y el experimento necesario para validar el MVP. Su objetivo no es describir todo el producto final, sino enfocar el aprendizaje del equipo en la menor versión viable capaz de evaluar si los usuarios perciben valor antes de escalar el producto.
 
@@ -233,7 +233,7 @@ El Lean UX Canvas de Nexa organiza el problema, los resultados esperados, los us
 | **7. What’s the most important thing we need to learn first?** | Comprobar si los usuarios internos (Sales y Logistics / Operations) aceptarían usar un flujo estructurado como apoyo operativo en su día a día sin perder velocidad ni flexibilidad frente a sus canales manuales e informales (WhatsApp, llamadas y Excel). |
 | **8. What’s the least amount of work we need to do to learn the next most important thing?** | Diseñar y evaluar un prototipo navegable o flujo simulado con datos controlados que permita comparar el proceso manual actual frente al flujo propuesto en Nexa para un caso de pedido recurrente. El experimento evaluará tareas core: registro de solicitud por Sales; revisión de stock y despacho por Logistics / Operations; y consulta por B2B Buyer, midiendo tiempos de ejecución, errores de captura y preferencia de adopción sin construir lógica compleja de producción. |
 
->*Nota:* El canvas resume la lógica Lean UX aplicada a Nexa. La solución se expresa como MVP validable y no como alcance completo del producto final. Elaboración propia.
+> *Nota:* El canvas resume la lógica Lean UX aplicada a Nexa. La solución se expresa como MVP validable y no como alcance completo del producto final. Elaboración propia.
 
 ##### Lean UX Validation Protocol
 
@@ -248,7 +248,7 @@ El protocolo de validación define cómo se evaluará la viabilidad y utilidad d
 | **H3: Autonomía del comprador** | Test de usabilidad y autonomía del portal web de autoabastecimiento. | 3 a 5 compradores B2B representativos (B2B Buyer). | Autoabastecimiento y consulta del estado de pedidos desde el portal externo. | Buscar un producto en el catálogo digital, generar una solicitud de pedido y consultar el estado y documentos del pedido. | Consultas repetitivas vía telefónica o chat (WhatsApp) al vendedor o a soporte de la distribuidora. | Completitud de la tarea, errores de captura y asistencia crítica. | Éxito si 4/5 compradores completan la consulta, solicitud y revisión de estado/documentos sin asistencia crítica. | Si más de 1 comprador no logra finalizar la solicitud autónomamente o reporta desconfianza o confusión crítica en la navegación. | Ajustar etiquetas, simplificar los flujos y reestructurar la visibilidad de estados en el portal del comprador. |
 | **H4: Adopción gradual** | Comparación de adopción gradual para evaluar flexibilidad y fricción. | 3 a 5 usuarios internos de Sales, Logistics / Operations y Company Owner. | Simulación de jornada diaria procesando pedidos recurrentes mediante flujo manual vs. propuesto, incluyendo la delegación de permisos y configuración de usuarios en el workspace. | Procesar un lote de pedidos simulados y administrar configuraciones de usuarios declarando y sustentando el método de trabajo preferido. | Flujo operativo manual actual basado enteramente en WhatsApp y hojas de cálculo. | Elección declarada de preferencia de adopción, percepción de flexibilidad y velocidad de procesamiento. | Éxito si 4/5 usuarios internos prefieren usar Nexa como apoyo operativo o flujo híbrido, sin percibir pérdida crítica de flexibilidad. | Si la mayoría (2 o más de 5) opta por no utilizar la plataforma prefiriendo WhatsApp/Excel por lentitud o rigidez. | Replantear la adopción híbrida, flexibilizar la captura y permitir importaciones rápidas de datos desde canales informales. |
 
->*Nota:* El protocolo se ejecutará en sesiones controladas e individuales de pruebas de usuario para garantizar la consistencia en la captura de métricas. Elaboración propia.
+> *Nota:* El protocolo se ejecutará en sesiones controladas e individuales de pruebas de usuario para garantizar la consistencia en la captura de métricas. Elaboración propia.
 
 *Relación entre problema central, segmentos, hipótesis y métricas*
 
@@ -263,6 +263,6 @@ El protocolo de validación define cómo se evaluará la viabilidad y utilidad d
 | **Métrica de adopción (H4)** | Preferencia de adopción declarada (flujo Nexa, manual o híbrido); nivel de flexibilidad percibido. | Preferencia de adopción declarada (flujo Nexa, manual o híbrido); velocidad operativa percibida. | Preferencia de adopción declarada (Nexa vs. administración informal). | No aplica. |
 | **Criterio de aprendizaje (H4)** | Útil si Sales prefiere usar Nexa como apoyo operativo o flujo híbrido frente al proceso manual clásico. | Útil si Logistics / Operations prefiere el apoyo de la vista centralizada sin percibir pérdida de flexibilidad. | Útil si el propietario prefiere centralizar la configuración en el workspace. | No aplica. |
 
->*Nota:* La tabla mantiene la trazabilidad entre el problema central, los roles, las hipótesis y las métricas de validación. Elaboración propia.
+> *Nota:* La tabla mantiene la trazabilidad entre el problema central, los roles, las hipótesis y las métricas de validación. Elaboración propia.
 
 Es fundamental destacar que el Lean UX Process no define la solución tecnológica como definitiva ni pretende cerrar el diseño del producto en esta etapa inicial. Su propósito es estructurar y organizar el aprendizaje empírico y experimental de partida. De este modo, los resultados obtenidos de este marco dinámico se conectarán y darán soporte directo al proceso de Needfinding, a la definición y refinamiento de User Stories, a la formulación de criterios de aceptación detallados, y a la priorización del Product Backlog para las validaciones iterativas en los siguientes ciclos de desarrollo del proyecto Nexa.
