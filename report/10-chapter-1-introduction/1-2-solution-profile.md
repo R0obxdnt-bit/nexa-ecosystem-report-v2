@@ -127,7 +127,7 @@ Para Nexa se define un único Lean UX Problem Statement, debido a que el proyect
 
 La fragmentación actual del proceso afecta a cuatro roles principales. Sin embargo, estos roles no deben entenderse como problem statements independientes, sino como actores involucrados en un mismo problema sistémico. Sales representa al usuario comercial que recibe y estructura solicitudes; Logistics / Operations representa al usuario operativo que controla inventario, despacho y evidencias; Company Owner representa al responsable administrativo del tenant/workspace, usuarios, permisos y configuración; y B2B Buyer representa al comprador B2B que necesita abastecerse y consultar el estado de sus pedidos con mayor claridad.
 
-*Tabla. Lean UX Problem Statement central de Nexa*
+*Lean UX Problem Statement central de Nexa*
 
 | Campo | Definición aplicada a Nexa |
 |---|---|
@@ -149,7 +149,7 @@ La fragmentación actual del proceso afecta a cuatro roles principales. Sin emba
 
 - **Pregunta retadora:** ¿Cómo podemos comprobar si una experiencia digital mínima reduce la fricción del flujo de pedidos B2B de productos refrigerados, mejora la coordinación entre captura comercial, validación operativa y seguimiento del comprador, y evita que el proceso se vuelva más lento o rígido para los usuarios involucrados?
 
-*Tabla. Desglose del problema central por actor afectado*
+*Desglose del problema central por actor afectado*
 
 | Actor | Manifestación del problema | Consecuencia principal | Necesidad Lean UX |
 |---|---|---|---|
@@ -166,7 +166,7 @@ Las suposiciones de Nexa se formulan como ideas de trabajo que deben validarse a
 
 Para evitar una solución sobredimensionada, las assumptions se priorizan según su impacto en el problema central. Las más críticas son aquellas que, de ser falsas, pondrían en duda la utilidad del producto: evaluar si las empresas perciben valor al unificar el flujo mínimo, comprobar si los usuarios internos adoptan una experiencia web sin perder velocidad operativa, evaluar si el comprador B2B acepta consultar información desde un portal y comprobar si una web responsiva es suficiente para validar el flujo principal.
 
-*Tabla. Lean UX Assumptions priorizadas*
+*Lean UX Assumptions priorizadas*
 
 | Prioridad | Tipo de assumption | Assumption | Segmentos relacionados | Riesgo si es falsa | Cómo se valida |
 |:---:|:---|:---|:---|:---|:---|
@@ -191,7 +191,7 @@ Las hipótesis de Nexa se derivan del Problem Statement central y no de módulos
 
 Para mantener coherencia Lean UX y conexión con Scrum, las hipótesis se formulan conectando resultado esperado, actor, beneficio, solución mínima y criterio de aprendizaje. De esta manera, cada hipótesis permite comprobar si el MVP genera aprendizaje útil y no solo si una funcionalidad fue implementada. Posteriormente, estos criterios podrán transformarse en User Stories, criterios de aceptación y validaciones del Sprint.
 
-*Tabla. Lean UX Hypothesis Statements de Nexa*
+*Lean UX Hypothesis Statements de Nexa*
 
 | Hipótesis | Formulación Lean UX | Segmentos relacionados | Criterio de éxito |
 |---|---|---|---|
@@ -202,7 +202,7 @@ Para mantener coherencia Lean UX y conexión con Scrum, las hipótesis se formul
 
 >*Nota:* Las hipótesis se organizan alrededor de un único flujo de negocio. H1, H2 y H3 validan partes del recorrido, mientras que H4 valida la coherencia y adopción interna inicial. Elaboración propia.
 
-*Tabla. Definiciones operativas para la validación Lean UX*
+*Definiciones operativas para la validación Lean UX*
 
 | Concepto | Definición operativa |
 |---|---|
@@ -218,7 +218,7 @@ Para mantener coherencia Lean UX y conexión con Scrum, las hipótesis se formul
 
 El Lean UX Canvas de Nexa organiza el problema, los resultados esperados, los usuarios, los beneficios, las soluciones mínimas, las hipótesis, el aprendizaje prioritario y el experimento necesario para validar el MVP. Su objetivo no es describir todo el producto final, sino enfocar el aprendizaje del equipo en la menor versión viable capaz de evaluar si los usuarios perciben valor antes de escalar el producto.
 
-*Tabla. Lean UX Canvas de Nexa*
+*Lean UX Canvas de Nexa*
 
 | Bloque del canvas | Contenido aplicado a Nexa |
 |---|---|
@@ -237,7 +237,7 @@ El Lean UX Canvas de Nexa organiza el problema, los resultados esperados, los us
 
 El protocolo de validación define cómo se evaluará la viabilidad y utilidad del flujo propuesto antes de ampliar el alcance funcional del producto o proceder con desarrollos de mayor envergadura. Mediante este marco metodológico, el equipo busca recopilar evidencia empírica directa de los usuarios representativos en escenarios controlados.
 
-*Tabla. Protocolo de validación empírica para hipótesis Lean UX*
+*Protocolo de validación empírica para hipótesis Lean UX*
 
 | Hipótesis | Experimento mínimo | Participantes | Escenario | Tarea | Baseline | Métricas | Criterio de éxito | Criterio de fallo | Decisión de aprendizaje |
 |---|---|---|---|---|---|---|---|---|---|
