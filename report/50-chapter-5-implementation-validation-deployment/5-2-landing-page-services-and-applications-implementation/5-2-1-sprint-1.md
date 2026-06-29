@@ -22,9 +22,8 @@ La planificación del Sprint 1 organizó la base documental, visual y pública d
 | Sprint 1 Velocity | 99 Story Points |
 | Sum of Story Points | 99 Story Points |
 
+*Reunión virtual del equipo para coordinación de Sprint 1.*
 ![Reunión virtual de planificación del Sprint 1](../../assets/images/front-matter/collaboration/team-collaboration-meeting.jpg)
-
-Figura. Reunión virtual del equipo para coordinación de Sprint 1.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -48,7 +47,7 @@ El Sprint Backlog 1 concentra el trabajo realizado entre el **2026-04-01 y 2026-
 
 > *Nota:* La captura muestra la planificación actualizada del Sprint 1 en Jira, incluyendo User Stories, work-items, responsables, estados y estimaciones utilizadas para la trazabilidad del incremento inicial. Elaboración propia.
 
-**URL del Jira Backlog — Proyecto Nexa:** [https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog](https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog)
+**URL del Jira Backlog — Proyecto Nexa:** https://team-nexa.atlassian.net/jira/software/projects/NX/boards/1/backlog
 
 La siguiente tabla presenta los User Stories asignados al Sprint 1 y los Work-items utilizados para descomponer el trabajo. Además de las User Stories, el sprint incluye tareas de soporte documental, configuración y evidencia necesarias para completar el incremento comprometido.
 
