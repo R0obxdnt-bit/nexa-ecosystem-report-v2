@@ -1,10 +1,10 @@
-## **1.3. Segmentos Objetivos**
+## 1.3. Segmentos Objetivos
 
 La segmentación de Nexa se define a partir del flujo real de coordinación comercial y operativa en empresas importadoras o distribuidoras de productos refrigerados y congelados. Nexa se plantea como una plataforma **Multi tenant SaaS B2B** contratada por una empresa de cadena de frío, la cual habilita distintos perfiles de uso dentro de un mismo ecosistema operacional.
 
 En esta sección, los segmentos objetivo funcionan como la base de investigación y diseño del producto. Por ello, no se presentan como módulos del sistema, sino como actores del dominio que concentran fricciones distintas y complementarias.
 
-#### ***Modelo Multi tenant SaaS y actores del ecosistema***
+#### Modelo Multi tenant SaaS y actores del ecosistema
 
 Nexa funciona bajo un modelo Multi tenant SaaS orientado a empresas B2B de cadena de frío. Dentro de este modelo, los roles de **Sales**, **Logistics / Operations** y **Company Owner** son usuarios internos de la empresa contratante, mientras que el rol de **B2B Buyer** corresponde al comprador externo habilitado para interactuar con el portal de compra. Las responsabilidades administrativas de la empresa, accesos, planes, invitaciones de usuarios, asignación de permisos y configuración del tenant/workspace son asumidas por el **Company Owner**, garantizando el aislamiento completo de información entre organizaciones. El equipo comercial (**Sales**) y el equipo logístico (**Logistics / Operations**) participan directamente en la validación comercial y ejecución del flujo operativo del pedido dentro de su tenant, mientras que los compradores externos (**B2B Buyer**) interactúan desde el portal habilitado.
 
@@ -42,7 +42,7 @@ flowchart LR
 
 > *Nota:* El gráfico representa la relación transversal entre el comprador B2B, la coordinación comercial y la operación interna de la empresa contratante. Elaboración propia.
 
-### ***Flujo integrado de Nexa***
+### Flujo integrado de Nexa
 
 El flujo base de Nexa inicia cuando un comprador B2B genera una solicitud desde el portal o cuando el equipo comercial registra manualmente un pedido recibido por canales tradicionales. A partir de ese punto, la plataforma permite ordenar la validación comercial, convertir la solicitud en un pedido confirmado, coordinar la reserva de inventario, preparar el despacho, gestionar documentos y ofrecer seguimiento al comprador.
 
@@ -70,7 +70,7 @@ flowchart TD
 
 > *Nota:* El gráfico resume el recorrido completo del pedido dentro de Nexa, desde la entrada de la solicitud hasta el seguimiento final del comprador. Elaboración propia.
 
-### ***Sustento demográfico y estadístico***
+### Sustento demográfico y estadístico
 
 El dominio de Nexa se ubica en la distribución B2B de productos refrigerados y congelados, donde la coordinación entre ventas, logística y compradores comerciales todavía depende de canales informales, validaciones manuales y registros dispersos. Esta situación es especialmente crítica porque el pedido no solo contiene una intención de compra: también activa decisiones de disponibilidad, inventario, rotación, preparación, despacho, documentación y seguimiento.
 
@@ -110,9 +110,9 @@ mindmap
 
 > *Nota:* El gráfico resume los focos de fricción que justifican cada segmento dentro del dominio comercial-operativo de Nexa. Elaboración propia.
 
-### ***Análisis detallado por segmento***
+### Análisis detallado por segmento
 
-#### **Sales**
+#### Sales
 
 El rol de Sales está conformado por personal de ventas, ejecutivos de cuenta y asistentes comerciales de la importadora o distribuidora. Este rol representa el punto donde muchas solicitudes de compra ingresan al flujo interno de Nexa, ya sea desde el portal del comprador o desde canales tradicionales como WhatsApp, llamada, Excel o mensajes directos.
 
@@ -198,7 +198,7 @@ El valor esperado para el rol de Sales se concentra en reducir retrabajo y aumen
 
 > *Nota:* Conecta los principales dolores de Sales con respuestas funcionales y métricas futuras de validación. Elaboración propia.
 
-#### **Logistics / Operations**
+#### Logistics / Operations
 
 El rol de Logistics / Operations está conformado por el personal de logística, responsables de almacén, encargadas de inventario, despacho, coordinadoras operativas y transportistas de la distribuidora. Este rol representa la capacidad de la empresa contratante para dar viabilidad física a lo vendido, asegurando que las condiciones del inventario y el transporte cumplan con las exigencias del producto refrigerado o congelado.
 
@@ -273,7 +273,7 @@ El valor esperado radica en simplificar su coordinación diaria mediante la cent
 
 > *Nota:* Relaciona los dolores del rol logístico con las soluciones operativas y métricas de validación en Nexa. Elaboración propia.
 
-#### **Company Owner**
+#### Company Owner
 
 El rol de Company Owner representa a los dueños, gerentes o administradores generales de la distribuidora contratante. Como tomadores de decisiones estratégicas, este rol asume la propiedad del tenant y la configuración general del workspace.
 
@@ -347,7 +347,7 @@ El valor esperado es garantizar el control, la seguridad y la correcta estructur
 
 > *Nota:* Relaciona los dolores del Company Owner con las soluciones administrativas y métricas de validación correspondientes. Elaboración propia.
 
-#### **B2B Buyer**
+#### B2B Buyer
 
 El rol de B2B Buyer está conformado por compradores B2B externos habilitados por la empresa contratante, como restaurantes, supermercados, negocios retail, compradores mayoristas, compradores minoristas y negocios HORECA. Este rol representa el origen de la demanda y participa en el flujo mediante la consulta de catálogo, creación de solicitudes, revisión de pedidos, descarga de documentos y seguimiento del despacho.
 
@@ -437,7 +437,7 @@ De esta manera, el rol de B2B Buyer valida que Nexa no solo ordena el trabajo in
 
 > *Nota:* Conecta los principales dolores de B2B Buyer con respuestas funcionales y métricas futuras de validación. Elaboración propia.
 
-### ***Impacto en el MVP y Métricas de Validación***
+### Impacto en el MVP y Métricas de Validación
 
 Los cuatro roles validan el núcleo inicial del producto porque cubren el recorrido mínimo que Nexa necesita ordenar: entrada de pedido, validación comercial, conversión a pedido confirmado, control de inventario, preparación, despacho, documentos, administración del workspace y seguimiento. En consecuencia, el MVP no debe evaluarse solo por la cantidad de pantallas implementadas, sino por su capacidad para reducir fricción entre estos actores.
 
