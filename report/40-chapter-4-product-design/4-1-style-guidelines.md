@@ -2,7 +2,7 @@
 
 El Capítulo IV documenta la transición desde el descubrimiento del dominio hacia la materialización visual, funcional y arquitectónica de Nexa. En esta sección se establecen los criterios estéticos, las estructuras de información y las decisiones de diseño que permiten representar de forma coherente el flujo comercial-operativo de la plataforma.
 
-Nexa se construye como un ecosistema de tres superficies complementarias: una Landing Page pública, una Web Application interna y un Buyer Portal para compradores B2B. Cada superficie comparte un lenguaje visual común, pero adapta su densidad, navegación y tono de interacción según los roles finales del producto: **Sales**, **Logistics / Operations**, **Company Owner** y **B2B Buyer**. La Web Application interna atiende las responsabilidades comerciales, operativas y administrativas de la empresa contratante dentro de su tenant/workspace, mientras que el Buyer Portal se orienta al comprador B2B externo habilitado.
+Nexa se construye como un ecosistema de tres superficies complementarias: una Landing Page pública, una Web Application interna y un Buyer Portal para compradores B2B. Cada superficie comparte un lenguaje visual común, pero adapta su densidad, navegación y tono de interacción según los segmentos principales del producto: **S1 — Commercial Coordination**, **S2 — Operations / Account Owner** y **S3 — B2B Buyer Portal**. La Web Application interna atiende al S1 y al S2, incluyendo el account ownership del S2 para administración de tenant/workspace, mientras que el Buyer Portal se orienta al S3.
 
 ## 4.1. Style Guidelines
 
@@ -11,13 +11,13 @@ El sistema visual de Nexa se organiza mediante design tokens, criterios tipográ
 Las superficies del producto se diferencian de la siguiente manera:
 
 - La **Landing Page pública** comunica valor, confianza y especialización SaaS B2B para empresas de cadena de frío.
-- La **Web Application interna** atiende a **Sales**, **Logistics / Operations** y **Company Owner** dentro del tenant/workspace de la empresa contratante. Sales se enfoca en validación comercial y pedidos; Logistics / Operations en inventario, despacho y evidencias; y Company Owner en administración de empresa, usuarios, permisos, configuración y plan.
-- El **Buyer Portal** atiende al **B2B Buyer**, comprador externo habilitado para consultar catálogo, enviar solicitudes, revisar pedidos, acceder a documentos y seguir el despacho.
+- La **Web Application interna** atiende al **S1 — Commercial Coordination** y al **S2 — Operations / Account Owner** dentro del tenant/workspace de la empresa contratante. El S1 se enfoca en validación comercial y pedidos, mientras que el S2 cubre inventario, despacho, evidencias y account ownership para administración de empresa, usuarios, permisos, configuración y plan.
+- El **Buyer Portal** atiende al **S3 — B2B Buyer Portal**, comprador externo habilitado para consultar catálogo, enviar solicitudes, revisar pedidos, acceder a documentos y seguir el despacho.
 
 La arquitectura visual facilita:
 
 - Mantener consistencia de marca entre Landing Page, Web Application y Buyer Portal.
-- Adaptar densidad, jerarquía y componentes según las responsabilidades de Sales, Logistics / Operations, Company Owner y B2B Buyer sin crear experiencias visuales inconexas.
+- Adaptar densidad, jerarquía y componentes según las responsabilidades de S1, S2 y S3 sin crear experiencias visuales inconexas.
 - Reducir contradicciones visuales entre investigación, prototipo, documentación y diseño de producto.
 - Representar con claridad el flujo de catálogo, solicitudes, órdenes, inventario, despacho, documentos, estado de pago y seguimiento.
 - Documentar criterios de accesibilidad y responsive design desde la etapa de diseño.
@@ -32,8 +32,8 @@ La identidad visual se apoya en una base azul, superficies limpias, jerarquía c
 
 La marca debe sostener tres principios:
 
-- **Claridad comercial:** Sales y B2B Buyer deben comprender productos, solicitudes, órdenes, cobros referenciales y documentos sin ambigüedad.
-- **Control operativo:** Logistics / Operations y Company Owner deben identificar estados, reservas, alertas, incidencias, permisos y configuraciones sin fricción.
+- **Claridad comercial:** el S1 y el S3 deben comprender productos, solicitudes, órdenes, cobros referenciales y documentos sin ambigüedad.
+- **Control operativo:** el S2 debe identificar estados, reservas, alertas, incidencias, permisos y configuraciones sin fricción, incluyendo la administración bajo el account ownership del S2.
 - **Continuidad del flujo:** cada superficie debe reforzar que Nexa conecta catálogo, promociones, solicitudes, órdenes, inventario, despacho, tracking, evidencia, pago simulado y cierre documental dentro del tenant/workspace.
 
 #### Communication Tone and Language
@@ -52,7 +52,7 @@ El tono varía según la superficie:
 
 > *Nota:* La tabla resume los tonos y la aplicación lingüística en cada superficie de Nexa. Elaboración propia.
 
-Los textos operativos deben usar verbos concretos y estados comprensibles. En **Sales**, el lenguaje debe orientar validación comercial, conversión de solicitudes, revisión de clientes y gestión documental. En **Logistics / Operations**, debe orientar control de inventario, lotes, despacho, evidencias, incidencias y trazabilidad operativa. En **Company Owner**, debe orientar administración de workspace, usuarios, permisos, configuración y plan. En **B2B Buyer**, debe orientar consulta, solicitud, seguimiento y comprensión del cierre comercial.
+Los textos operativos deben usar verbos concretos y estados comprensibles. En el **S1**, el lenguaje debe orientar validación comercial, conversión de solicitudes, revisión de clientes y gestión documental. En el **S2**, debe orientar control de inventario, lotes, despacho, evidencias, incidencias y trazabilidad operativa. En el **S2 (account ownership)**, debe orientar administración de workspace, usuarios, permisos, configuración y plan. En el **S3**, debe orientar consulta, solicitud, seguimiento y comprensión del cierre comercial.
 
 #### Color Palette
 
@@ -144,7 +144,7 @@ El sistema de componentes de Nexa se construye sobre patrones reutilizables que 
 
 > *Nota:* Variantes de botones primarios, secundarios y estados. Elaboración propia.
 
-Los componentes deben representar entidades reales del dominio: catálogo gourmet, promociones, solicitudes, órdenes, clientes B2B, inventario, reservas, lotes FEFO, despacho, tracking, temperatura, evidencia de entrega, cobro referencial, documentos comerciales y estado de pago. En las superficies autenticadas, los componentes también deben ayudar a comunicar el contexto de uso del tenant/workspace, el rol activo del usuario y el alcance de permisos disponible para cada operación.
+Los componentes deben representar entidades reales del dominio: catálogo gourmet, promociones, solicitudes, órdenes, clientes B2B, inventario, reservas, lotes FEFO, despacho, tracking, temperatura, evidencia de entrega, cobro referencial, documentos comerciales y estado de pago. En las superficies autenticadas, los componentes también deben ayudar a comunicar el contexto de uso del tenant/workspace, el perfil activo del usuario y el alcance de permisos disponible para cada operación.
 
 #### Shared Patterns
 
@@ -180,20 +180,20 @@ Los componentes deben representar entidades reales del dominio: catálogo gourme
 
 > *Nota:* La tabla compara la adaptación de cada componente de interfaz según la superficie correspondiente. Elaboración propia.
 
-#### Segment and Actor-Based Interface Variations
+#### Segment-Based Interface Variations
 
-*Variaciones de interfaz por rol*
+*Variaciones de interfaz por segmento*
 
-| Rol / actor | Actores funcionales asociados | Necesidad de interfaz | Patrones prioritarios |
+| Segmento / subalcance | Actores funcionales asociados | Necesidad de interfaz | Patrones prioritarios |
 |---|---|---|---|
-| Sales | Personal comercial, ejecutivos de cuenta y asistentes comerciales | Validar solicitudes, revisar clientes B2B, convertir solicitudes en órdenes, registrar pedidos asistidos y gestionar documentos comerciales | Tablas de solicitudes, filtros por estado, formularios de validación, badges comerciales, drawers de detalle |
-| Logistics / Operations | Jefatura logística, responsables de almacén, coordinación operativa y despacho | Controlar inventario, reservas, lotes FEFO, despacho, temperatura, POD, incidencias y trazabilidad operativa | Dashboards operativos, tablas densas, cards de stock, estados de despacho, formularios operativos, alertas |
-| Company Owner | Dueños, gerentes o administradores de la empresa contratante | Administrar workspace, empresa, usuarios, permisos, configuración, plan y alcance de acceso dentro del tenant | Formularios de configuración, tablas de usuarios, gestión de permisos, estados de cuenta, paneles administrativos |
-| B2B Buyer | Comprador B2B externo habilitado | Consultar catálogo, promociones, solicitudes, órdenes, documentos, tracking y estado de pago | Cards de catálogo, request builder, timeline de tracking, documentos visibles, estados simples y mensajes de confirmación |
+| S1 — Commercial Coordination | Personal comercial, ejecutivos de cuenta y asistentes comerciales | Validar solicitudes, revisar clientes B2B, convertir solicitudes en órdenes, registrar pedidos asistidos y gestionar documentos comerciales | Tablas de solicitudes, filtros por estado, formularios de validación, badges comerciales, drawers de detalle |
+| S2 — Operations / Account Owner | Jefatura logística, responsables de almacén, coordinación operativa y despacho | Controlar inventario, reservas, lotes FEFO, despacho, temperatura, POD, incidencias y trazabilidad operativa | Dashboards operativos, tablas densas, cards de stock, estados de despacho, formularios operativos, alertas |
+| S2 — Account Ownership | Dueños, gerentes o administradores de la empresa contratante | Administrar workspace, empresa, usuarios, permisos, configuración, plan y alcance de acceso dentro del tenant | Formularios de configuración, tablas de usuarios, gestión de permisos, estados de cuenta, paneles administrativos |
+| S3 — B2B Buyer Portal | Comprador B2B externo habilitado | Consultar catálogo, promociones, solicitudes, órdenes, documentos, tracking y estado de pago | Cards de catálogo, request builder, timeline de tracking, documentos visibles, estados simples y mensajes de confirmación |
 
-> *Nota:* La tabla detalla las necesidades visuales y patrones específicos requeridos para cada rol. Elaboración propia.
+> *Nota:* La tabla detalla las necesidades visuales y patrones específicos requeridos para cada segmento. Elaboración propia.
 
-Esta diferenciación no crea productos aislados. Los roles permiten redactar y diseñar tareas con precisión, manteniendo continuidad visual entre la Landing Page, la Web Application interna y el Buyer Portal.
+Esta diferenciación no crea productos aislados. Los segmentos permiten redactar y diseñar tareas con precisión, manteniendo continuidad visual entre la Landing Page, la Web Application interna y el Buyer Portal.
 
 #### Responsive and Mobile Adaptation
 
@@ -208,7 +208,7 @@ El sistema de diseño opera sobre una rejilla flexible con breakpoints para Desk
 **Comportamiento responsive por superficie:**
 
 - **Landing Page:** responsive para captación y comunicación comercial, con navegación adaptable, hero fluido, secciones que pasan de multi-columna a stack vertical y CTAs visibles en dispositivos móviles.
-- **Web Application interna:** prioriza desktop y tablet por la densidad operativa de Sales, Logistics / Operations y Company Owner. En pantallas pequeñas, la navegación debe colapsar y las tablas deben usar scroll horizontal o vistas compactas.
+- **Web Application interna:** prioriza desktop y tablet por la densidad operativa de S1 y S2, incluyendo el account ownership. En pantallas pequeñas, la navegación debe colapsar y las tablas deben usar scroll horizontal o vistas compactas.
 - **Buyer Portal:** prioriza tablet y mobile para facilitar consulta de catálogo, solicitudes, tracking, documentos comerciales y estado de pago del comprador B2B.
 
 Los componentes interactivos deben respetar una altura mínima aproximada de 44px en superficies táctiles. Esta decisión mejora usabilidad en contextos donde los usuarios pueden interactuar rápidamente desde almacén, ruta, oficina comercial o punto de compra.
@@ -265,7 +265,7 @@ La experiencia móvil de Nexa adapta los mismos principios visuales de la versi�
 | Criterio móvil | Aplicación en Nexa |
 |---|---|
 | Jerarquía visual móvil | Priorizar título, estado, acción principal y dato crítico antes de información secundaria; usar listas, cards compactas o secciones colapsables cuando la densidad de tablas no sea adecuada. |
-| Navegación compacta | Colapsar menús y sidebars en navegación móvil; mantener accesibles las rutas principales de catálogo, solicitudes, órdenes, documentos, inventario o reportes según el rol y la superficie. |
+| Navegación compacta | Colapsar menús y sidebars en navegación móvil; mantener accesibles las rutas principales de catálogo, solicitudes, órdenes, documentos, inventario o reportes según el segmento y la superficie. |
 | Legibilidad | Conservar contraste, tamaño de texto y separación suficiente para leer estados, precios, cantidades, documentos y mensajes de validación sin depender de zoom manual. |
 | Espaciado táctil | Mantener objetivos interactivos de aproximadamente 44px de alto, con separación suficiente entre botones, filtros, inputs, tabs y acciones críticas. |
 | Adaptación responsive | Reorganizar contenido en una sola columna cuando sea necesario, usando scroll horizontal solo para tablas operativas que no puedan simplificarse sin perder contexto. |
