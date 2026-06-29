@@ -1,6 +1,6 @@
-# **Capítulo I: Introducción**
+# Capítulo I: Introducción
 
-## **1.1. Startup Profile**
+## 1.1. Startup Profile
 
 King es una startup de base tecnológica enfocada en el desarrollo de soluciones digitales para optimizar procesos comerciales y operativos en la distribución B2B de productos refrigerados y congelados en el Perú.
 Su origen se vincula con la oportunidad identificada: la existencia de brechas persistentes de digitalización en empresas importadoras y distribuidoras del sector, donde la coordinación de ventas, disponibilidad, pedidos y despachos todavía presenta niveles importantes de informalidad y fragmentación.
@@ -16,7 +16,7 @@ Bajo este enfoque, Nexa no pretende reemplazar de inmediato todas las herramient
 En términos estratégicos, la startup compite por especialización más que por amplitud funcional. Su diferenciación radica en abordar de manera concreta un dominio donde convergen exigencias comerciales, operativas y de control propias de productos refrigerados y congelados.
 Por ello, la primera apuesta se concentra en un **MVP web** que permita estructurar el flujo principal del sistema —catálogo, pedido, inventario y seguimiento— y que, sobre una base validada, pueda evolucionar en fases posteriores hacia componentes móviles, integraciones con soluciones logísticas complementarias y funcionalidades de trazabilidad térmica apoyadas en tecnologías IoT.
 
-### ***1.1.1. Descripción del startup***
+### 1.1.1. Descripción del startup
 
 King está orientada al desarrollo de soluciones digitales para la gestión comercial y operativa de empresas importadoras y distribuidoras de productos refrigerados y congelados en el Perú. En coherencia con lo anteriormente expuesto, la propuesta se enfoca en ordenar la interacción principal entre la empresa distribuidora y sus clientes comerciales sin sobredimensionar el alcance del producto en su etapa inicial.
 
@@ -32,7 +32,7 @@ A partir de esa base, la startup proyecta una evolución futura coherente con la
 
 > *Nota:* La tabla resume los pilares estratégicos que orientan la identidad, el propósito y la cultura de trabajo de King y su producto Nexa. Elaboración propia.
 
-### ***1.1.2. Perfiles de integrantes del equipo***
+### 1.1.2. Perfiles de integrantes del equipo
 
 Para la correcta ejecución de este proyecto, se requiere un equipo de trabajo con perfiles complementarios que posean habilidades en análisis de sistemas, modelado de datos, programación, documentación técnica, diseño de experiencia de usuario y gestión del trabajo colaborativo. En esta sección, cada integrante aporta fortalezas diferenciadas que permiten cubrir la investigación, la estructuración del informe, el diseño de la solución, la implementación técnica y la coordinación general del proyecto.
 
