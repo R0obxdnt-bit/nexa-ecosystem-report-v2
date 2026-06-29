@@ -353,7 +353,7 @@ Segmento 3 se mantiene como segmento objetivo válido porque representa al compr
 - **Apellidos:** Puente Arnao
 - **Edad:** 56 años
 - **Distrito:** San Isidro
-- **Dispositivos:** iOS y MacOS
+- **Dispositivos:** iOS, MacOS
 - **Navegador:** Safari, Google Chrome
 - **Medios de comunicación:** WhatsApp, correo electrónico
 
