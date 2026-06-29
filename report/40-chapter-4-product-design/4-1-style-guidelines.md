@@ -42,11 +42,15 @@ El tono de Nexa es serio antes que divertido, formal antes que casual, respetuos
 
 El tono varía según la superficie:
 
+*Tono de comunicación por superficie*
+
 | Superficie | Tono esperado | Aplicación |
 |---|---|---|
 | Landing Page | Claro, comercial y orientado a valor | Explica beneficios, especialización en cadena de frío, trazabilidad y reducción de fricción operativa. |
 | Web Application interna | Preciso, operativo y orientado a acción | Guía validaciones, reservas, gestión de clientes B2B, despacho, documentos, estado de pago y alertas. |
 | Buyer Portal | Simple, confiable y orientado a autonomía | Permite que el comprador B2B consulte catálogo, arme solicitudes, revise tracking, documentos y estado de pago sin depender de llamadas. |
+
+> *Nota:* La tabla resume los tonos y la aplicación lingüística en cada superficie de Nexa. Elaboración propia.
 
 Los textos operativos deben usar verbos concretos y estados comprensibles. En **Sales**, el lenguaje debe orientar validación comercial, conversión de solicitudes, revisión de clientes y gestión documental. En **Logistics / Operations**, debe orientar control de inventario, lotes, despacho, evidencias, incidencias y trazabilidad operativa. En **Company Owner**, debe orientar administración de workspace, usuarios, permisos, configuración y plan. En **B2B Buyer**, debe orientar consulta, solicitud, seguimiento y comprensión del cierre comercial.
 
@@ -60,6 +64,8 @@ La paleta de Nexa se organiza en cinco grupos funcionales: marca primaria, super
 
 > *Nota:* Especificación de Brand Colors, Text Colors y Status Colors. Elaboración propia.
 
+*Paleta funcional de colores*
+
 | Grupo | Token / referencia visual | Propósito | Uso en Landing Page | Uso en Web Application |
 |---|---|---|---|---|
 | Primary Blue | `#2563EB` / familia azul Nexa | Marca, CTAs, enlaces activos y acciones principales | Botones principales, enlaces destacados, acentos de sección | Acciones primarias, estados activos, navegación, filtros seleccionados |
@@ -71,6 +77,8 @@ La paleta de Nexa se organiza en cinco grupos funcionales: marca primaria, super
 | Warning | `#F59E0B` | Atención o riesgo moderado | Mensajes preventivos si aplica | Crédito limitado, lote próximo a vencer, validación por revisar |
 | Danger | `#EF4444` / `#DC2626` | Error, bloqueo o riesgo crítico | Mensajes de error en formularios | Stock agotado, validación fallida, incidencia de temperatura |
 | Info | `#2563EB` | Información neutral o progreso | Enlaces informativos y mensajes de soporte | Pedido en tránsito, tracking, estado informativo |
+
+> *Nota:* La tabla detalla los tokens hexadecimales y la función operativa de cada color en el ecosistema. Elaboración propia.
 
 La diferencia principal entre superficies no está en la identidad cromática, sino en su frecuencia y densidad de uso. La Landing Page emplea principalmente la familia primaria, superficies claras y contrastes editoriales; la Web Application incorpora con mayor frecuencia estados semánticos para comunicar condiciones operativas de solicitudes, órdenes, inventario, despacho, documentos y estado de pago.
 
@@ -84,6 +92,8 @@ Nexa utiliza una combinación tipográfica orientada a claridad, jerarquía visu
 
 > *Nota:* Definición de jerarquías para Display, Headings, Body y Mono. Elaboración propia.
 
+*Jerarquía tipográfica*
+
 | Nivel | Familia principal | Uso en Landing Page | Uso en Web Application |
 |---|---|---|---|
 | Display / Hero | Plus Jakarta Sans / Inter fallback | Títulos hero, titulares de alto impacto y mensajes de conversión | No aplica como patrón dominante |
@@ -91,6 +101,8 @@ Nexa utiliza una combinación tipográfica orientada a claridad, jerarquía visu
 | Body | Inter | Párrafos, descripciones, FAQ y textos editoriales | Labels, contenido de tabla, formularios, descripciones y mensajes de ayuda |
 | Label / Caption | Inter | Microcopy de CTA, etiquetas de sección y textos secundarios | Badges, metadata, estados, filtros y mensajes de validación |
 | Mono / Technical | JetBrains Mono / Fira Code fallback | Códigos o referencias puntuales si aplica | Códigos internos de producto, códigos de lote, timestamps, identificadores de pedido, referencias documentales y datos técnicos de trazabilidad |
+
+> *Nota:* La tabla define los niveles y familias tipográficas por superficie. Elaboración propia.
 
 La jerarquía tipográfica se adapta al contexto de uso:
 
@@ -108,11 +120,15 @@ La escala de espaciado de Nexa se basa en múltiplos de 4px para mantener consis
 
 > *Nota:* Escala basada en múltiplos de 4px, desde 4px hasta 96px. Elaboración propia.
 
+*Principios de layout por superficie*
+
 | Superficie | Principio de layout |
 |---|---|
 | Landing Page | Usa márgenes amplios, secciones respirables y separación clara entre propuesta de valor, beneficios, cobertura funcional y llamados a la acción. |
 | Web Application interna | Usa espaciado compacto y consistente para soportar tablas, filtros, cards de estado, formularios de validación, inventario, reservas, despacho y documentos. |
 | Buyer Portal | Usa espaciado suficiente para lectura táctil en catálogo, solicitudes, tracking, documentos comerciales y estado de pago sin aumentar innecesariamente la profundidad de navegación. |
+
+> *Nota:* La tabla detalla los criterios de distribución espacial y márgenes según la superficie. Elaboración propia.
 
 La consistencia de layout debe sostenerse en cards, tablas, drawers, modals, paneles de detalle y estados vacíos. Las separaciones deben reforzar el recorrido de decisión del usuario: consultar, validar, reservar, despachar, revisar documentos, confirmar pago simulado y seguir el cierre de la orden.
 
@@ -132,6 +148,8 @@ Los componentes deben representar entidades reales del dominio: catálogo gourme
 
 #### Shared Patterns
 
+*Patrones compartidos de interfaz*
+
 | Patrón | Comportamiento | Propósito | Ejemplos en Nexa |
 |---|---|---|---|
 | Botón primario | Fondo azul primario, texto blanco, hover oscuro y foco visible | Ejecutar la acción principal del contexto | Enviar solicitud, confirmar validación comercial, reservar inventario, registrar despacho |
@@ -144,7 +162,11 @@ Los componentes deben representar entidades reales del dominio: catálogo gourme
 | Empty states | Mensaje breve + siguiente acción sugerida | Orientar al usuario cuando no hay datos cargados | Sin solicitudes registradas, sin promociones activas, sin documentos disponibles |
 | Alerts | Título, explicación y acción recomendada | Comunicar bloqueos, advertencias o confirmaciones | Lote próximo a vencer, incidencia registrada, stock agotado, pago simulado rechazado |
 
+> *Nota:* La tabla define el comportamiento y propósito de los principales componentes compartidos de UI. Elaboración propia.
+
 #### Surface Variations
+
+*Variaciones por superficie*
 
 | Componente | Landing Page | Web Application interna | Buyer Portal |
 |---|---|---|---|
@@ -156,7 +178,11 @@ Los componentes deben representar entidades reales del dominio: catálogo gourme
 | Drawers / Modals | Uso limitado o no dominante | Detalle de entidad, edición rápida y confirmación de acciones | Detalle de pedido, evidencia visible, documento comercial o resumen de pago |
 | Badges / Estados | Uso moderado para reforzar confianza | Uso frecuente para solicitudes, inventario, temperatura, despacho, documentos y pago | Uso claro y simple para solicitud, tracking, documentos y estado de pago |
 
+> *Nota:* La tabla compara la adaptación de cada componente de interfaz según la superficie correspondiente. Elaboración propia.
+
 #### Segment and Actor-Based Interface Variations
+
+*Variaciones de interfaz por rol*
 
 | Rol / actor | Actores funcionales asociados | Necesidad de interfaz | Patrones prioritarios |
 |---|---|---|---|
@@ -164,6 +190,8 @@ Los componentes deben representar entidades reales del dominio: catálogo gourme
 | Logistics / Operations | Jefatura logística, responsables de almacén, coordinación operativa y despacho | Controlar inventario, reservas, lotes FEFO, despacho, temperatura, POD, incidencias y trazabilidad operativa | Dashboards operativos, tablas densas, cards de stock, estados de despacho, formularios operativos, alertas |
 | Company Owner | Dueños, gerentes o administradores de la empresa contratante | Administrar workspace, empresa, usuarios, permisos, configuración, plan y alcance de acceso dentro del tenant | Formularios de configuración, tablas de usuarios, gestión de permisos, estados de cuenta, paneles administrativos |
 | B2B Buyer | Comprador B2B externo habilitado | Consultar catálogo, promociones, solicitudes, órdenes, documentos, tracking y estado de pago | Cards de catálogo, request builder, timeline de tracking, documentos visibles, estados simples y mensajes de confirmación |
+
+> *Nota:* La tabla detalla las necesidades visuales y patrones específicos requeridos para cada rol. Elaboración propia.
 
 Esta diferenciación no crea productos aislados. Los roles permiten redactar y diseñar tareas con precisión, manteniendo continuidad visual entre la Landing Page, la Web Application interna y el Buyer Portal.
 
@@ -195,6 +223,8 @@ El sistema iconográfico utiliza trazos lineales, formas simples y consistencia 
 
 > *Nota:* Biblioteca de iconos vectoriales para navegación y soporte. Elaboración propia.
 
+*Criterios de iconografía*
+
 | Uso | Criterio |
 |---|---|
 | Navegación | Icono + label textual para reducir ambigüedad |
@@ -203,11 +233,15 @@ El sistema iconográfico utiliza trazos lineales, formas simples y consistencia 
 | Operación | Iconos asociados a catálogo, solicitudes, órdenes, inventario, despacho, documentos, tracking y pago |
 | Accesibilidad | No depender únicamente del icono para comunicar significado |
 
+> *Nota:* La tabla establece las directrices para la correcta aplicación del sistema de iconos. Elaboración propia.
+
 En la Web Application, los iconos pueden apoyarse en PrimeIcons y en SVGs propios. En la Landing Page, los iconos deben mantener el estilo lineal y no competir con los textos de propuesta de valor. En el Buyer Portal, deben reforzar acciones frecuentes como buscar producto, agregar a solicitud, revisar tracking, descargar documento y consultar estado de pago.
 
 #### Accessibility
 
 Los lineamientos de accesibilidad de Nexa se orientan al estándar **WCAG 2.1 AA** como referencia de diseño. Esta sección no afirma certificación ni auditoría aprobada; documenta criterios incorporados en el diseño para favorecer contraste, navegación comprensible, identificación de errores y uso claro de estados.
+
+*Criterios de accesibilidad*
 
 | Criterio WCAG | Criterio incorporado en diseño | Aplicación en Nexa |
 |---|---|---|
@@ -218,11 +252,15 @@ Los lineamientos de accesibilidad de Nexa se orientan al estándar **WCAG 2.1 AA
 | 3.3.1 Error Identification | Mensajes de error claros en formularios y validaciones | Código interno no encontrado, cantidad inválida, stock agotado, incidencia sin motivo |
 | 3.3.2 Labels or Instructions | Campos con labels visibles, instrucciones breves y placeholders no críticos | Solicitud de compra, reserva de inventario, temperatura, documento comercial y perfil del comprador |
 
+> *Nota:* La tabla resume los criterios WCAG 2.1 AA implementados en el diseño del producto. Elaboración propia.
+
 Los estados críticos no deben comunicarse únicamente mediante color. Cada badge, alerta o validación debe incluir texto breve y comprensible, por ejemplo: `En revisión comercial`, `Orden confirmada`, `Inventario reservado`, `Lote próximo a vencer`, `En preparación`, `En tránsito`, `Entrega cerrada`, `Pago simulado`, `Documentos disponibles` o `Incidencia registrada`, según corresponda al flujo de negocio.
 
 ### 4.1.3. Mobile Style Guidelines
 
 La experiencia móvil de Nexa adapta los mismos principios visuales de la versión web a pantallas de menor ancho, priorizando lectura rápida, navegación compacta y acciones táctiles claras. No se plantean capturas adicionales en esta subsección; los criterios se aplican sobre la adaptación responsive ya definida para Landing Page, Web Application y Buyer Portal.
+
+*Criterios móviles*
 
 | Criterio móvil | Aplicación en Nexa |
 |---|---|
@@ -233,3 +271,5 @@ La experiencia móvil de Nexa adapta los mismos principios visuales de la versi�
 | Adaptación responsive | Reorganizar contenido en una sola columna cuando sea necesario, usando scroll horizontal solo para tablas operativas que no puedan simplificarse sin perder contexto. |
 | Consistencia web-mobile | Mantener colores, tipografía, badges, iconografía y lenguaje de estados coherentes con la Web Application desktop y el Buyer Portal. |
 | Accesibilidad | No comunicar errores o estados solo con color; conservar labels visibles, foco perceptible y mensajes comprensibles en formularios y acciones de confirmación. |
+
+> *Nota:* La tabla describe las adaptaciones de diseño aplicadas para la visualización en pantallas táctiles de menor escala. Elaboración propia.
