@@ -10,7 +10,7 @@ Las entrevistas se organizaron para entender cómo el problema aparece en esos t
 
 **Guion por segmento**
 
-**S1: Commercial Coordination**
+**Segmento 1: Commercial Coordination**
 
 **Segmento:** Personal que recibe, interpreta y canaliza pedidos hacia facturación, almacén o despacho
 
@@ -63,7 +63,7 @@ Este bloque explora el valor mínimo esperado de una herramienta digital.
 - Si pudieras cambiar una sola cosa del proceso actual, ¿qué cambiarías primero y por qué?
 - ¿Hay algo importante sobre tu trabajo o sobre este proceso que no te haya preguntado y creas que debería entender?
 
-**S2: Operations / Account Owner**
+**Segmento 2: Operations / Account Owner**
 
 **Perfiles entrevistados:** Personas con responsabilidad de supervisión o decisión sobre importación, abastecimiento, almacén, inventario, despacho y coordinación logística.
 
@@ -123,7 +123,7 @@ Este bloque prioriza valor operativo antes que una lista de funciones.
 
 **Nota para el moderador**. No es necesario formular todas las preguntas literalmente. Lo importante es mantener el foco, pedir ejemplos recientes, repreguntar “por qué” cuando aparezca un problema y no interrumpir silencios útiles.
 
-**S3: B2B Buyer Portal**
+**Segmento 3: B2B Buyer Portal**
 
 **Segmento:** Bodegas, minimarkets, pequeños mayoristas y negocios HORECA que compran productos refrigerados o congelados a distribuidores.
 
@@ -177,7 +177,7 @@ En esta subsección se preservan los nombres y cargos reales de las personas ent
 
 Además de las capturas integradas en el informe, el archivo audiovisual original de las ocho entrevistas se conserva en la carpeta compartida **King Nexa** de OneDrive. Cada ficha incluye su enlace directo para mantener trazabilidad entre la evidencia visual resumida y la grabación completa utilizada en el levantamiento.
 
-**S1: Commercial Coordination**
+**Segmento 1: Commercial Coordination**
 
 **Entrevistado 1**
 
@@ -185,7 +185,9 @@ Además de las capturas integradas en el informe, el archivo audiovisual origina
 - **Apellidos:** Silva Leca
 - **Edad:** 42 años
 - **Distrito:** Chorrillos
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Lorena Silva*
 
@@ -211,7 +213,9 @@ A nivel técnico, reporta fricciones severas con el sistema actual (Defontana), 
 - **Apellidos:** Levano Asca
 - **Edad:** 39 años
 - **Distrito:** Lurín
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Cinthia Levano*
 
@@ -237,7 +241,9 @@ Cinthia enfatiza la necesidad de simplicidad. Describe su flujo actual como una 
 - **Apellidos:** Pérez Huaman
 - **Edad:** 51 años
 - **Distrito:** San Miguel
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Celia Pérez*
 
@@ -257,7 +263,7 @@ Celia Pérez, con experiencia previa en ventas de ruta, aporta una perspectiva c
 
 Su testimonio confirma que, para el personal en ruta, la estabilidad de la conexión y la velocidad de respuesta del sistema son factores determinantes para la adopción tecnológica. Cualquier retraso en el dispositivo móvil se traduce en una atención deficiente al cliente y en una carga operativa innecesaria al final del día.
 
-**S2: Operations / Account Owner**
+**Segmento 2: Operations / Account Owner**
 
 **Entrevistado 1**
 
@@ -265,7 +271,9 @@ Su testimonio confirma que, para el personal en ruta, la estabilidad de la conex
 - **Apellidos:** Litano Ramos
 - **Edad:** 47 años
 - **Distrito:** Villa El Salvador
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Hilda Litano*
 
@@ -289,7 +297,9 @@ Hilda Litano supervisa procesos de importación y cumplimiento sanitario. Su enf
 - **Apellidos:** Taype Peñaloza
 - **Edad:** 49 años
 - **Distrito:** Callao
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Edith Taype*
 
@@ -313,7 +323,9 @@ Edith Taype opera en el punto de venta (supermercados), donde la manipulación y
 - **Apellidos:** Sandoval Romero
 - **Edad:** 48 años
 - **Distrito:** Jesús María
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** iOS, MacOS
+- **Navegador:** Safari, Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Jesica Sandoval*
 
@@ -331,9 +343,9 @@ Edith Taype opera en el punto de venta (supermercados), donde la manipulación y
 
 Jesica Sandoval, supervisora de ventas HORECA, subraya el riesgo de la transcripción manual de pedidos, donde los errores en cantidades obligan a validaciones individuales de cada orden. Señala que la variable crítica es el control de fechas de vencimiento (FEFO), información que actualmente no está integrada en el sistema central y requiere coordinación verbal constante con almacén.
 
-**S3: B2B Buyer Portal**
+**Segmento 3: B2B Buyer Portal**
 
-S3 se mantiene como segmento objetivo válido porque representa al comprador externo habilitado dentro del flujo B2B de Nexa. A partir de las entrevistas exploratorias disponibles y del análisis del flujo de compra, este segmento permite identificar necesidades relacionadas con catálogo, disponibilidad, confirmación del pedido, seguimiento, documentos y confianza durante la relación con la empresa proveedora.
+Segmento 3 se mantiene como segmento objetivo válido porque representa al comprador externo habilitado dentro del flujo B2B de Nexa. A partir de las entrevistas exploratorias disponibles y del análisis del flujo de compra, este segmento permite identificar necesidades relacionadas con catálogo, disponibilidad, confirmación del pedido, seguimiento, documentos y confianza durante la relación con la empresa proveedora.
 
 **Entrevistado 1**
 
@@ -342,6 +354,8 @@ S3 se mantiene como segmento objetivo válido porque representa al comprador ext
 - **Edad:** 56 años
 - **Distrito:** San Isidro
 - **Dispositivos:** iOS y MacOS
+- **Navegador:** Safari, Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Pedro Puente*
 
@@ -365,7 +379,9 @@ Pedro Puente es un distribuidor cuya mayor frustración es la incertidumbre log�
 - **Apellidos:** García Robles
 - **Edad:** 49 años
 - **Distrito:** San Borja
-- **Dispositivos:** Android y Windows
+- **Dispositivos:** Android, Windows
+- **Navegador:** Google Chrome
+- **Medios de comunicación:** WhatsApp, correo electrónico
 
 *Evidencia de entrevista: Henrry García*
 
@@ -385,13 +401,13 @@ Henrry García enfatiza que la confianza es el motor de la relación B2B. Aunque
 
 ### ***2.2.3. Análisis de entrevistas***
 
-**Análisis del S1: Commercial Coordination**
+**Análisis del Segmento 1: Commercial Coordination**
 
 El segmento de vendedoras y personal de coordinación comercial, representado en esta muestra por Lorena Silva, Cinthia Levano y Celia Pérez, constituye el punto de captura más sensible del flujo del pedido. En las tres entrevistas aparece la misma tensión operativa: responder con rapidez al cliente y, al mismo tiempo, validar crédito, stock y condiciones comerciales con información que no siempre está integrada. Sobre esa base se identifican los siguientes patrones compartidos.
 
-*Análisis del S1: Commercial Coordination*
+*Análisis del Segmento 1: Commercial Coordination*
 
-| Variable observada en S1 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
+| Variable observada en Segmento 1 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
 | --- | --- | --- | --- |
 | Uso intensivo de WhatsApp y canales paralelos | Lorena, Cinthia y Celia describen dependencia de mensajería y validaciones externas | El pedido nace en un entorno rápido, pero con baja estructuración de datos | El flujo inicial debe capturar rapidez sin perder consistencia ni trazabilidad |
 | Validación manual de stock y crédito | Lorena y Cinthia reportan consultas adicionales antes de confirmar pedidos | La captura del pedido no está suficientemente conectada con la información crítica del negocio | Unificar stock, crédito y condiciones comerciales en la misma experiencia |
@@ -418,24 +434,24 @@ El segmento de vendedoras y personal de coordinación comercial, representado en
 - **Brecha de Movilidad:** La incapacidad de realizar registros de clientes o pedidos complejos desde un smartphone limita la autonomía del 100% del personal en campo.
 - **Carga de re-digitación:** En las tres entrevistas aparece la necesidad de transcribir o revalidar información recibida por canales informales antes de convertirla en un pedido operable. Esto no permite estimar un porcentaje exacto de error, pero sí confirma una fuente recurrente de retrabajo y ambigüedad.
 
-**Hallazgos clave para el S1:**
+**Hallazgos clave para el Segmento 1:**
 
 - La solución debe acercarse a la rapidez percibida de WhatsApp, pero sin renunciar a una estructura de datos confiable.
 - Integrar en la misma interfaz la visibilidad de crédito, cobranzas y disponibilidad para reducir validaciones paralelas.
 - La experiencia debe responder bien en móvil, porque parte importante del trabajo ocurre fuera del escritorio o en condiciones de alta urgencia.
 
-**Análisis del S2: Operations / Account Owner**
+**Análisis del Segmento 2: Operations / Account Owner**
 
-El segmento S2, representado en esta muestra por Hilda Litano, Edith Taype y Jesica Sandoval, aporta una lectura transversal del dominio. Aquí el foco se desplaza desde la rapidez comercial hacia la trazabilidad, el control documental, la rotación y la responsabilidad operativa sobre productos perecederos. Estas entrevistas exponen las restricciones operativas y los criterios de control que este segmento debe sostener para que el pedido se cumpla correctamente.
+El segmento Segmento 2, representado en esta muestra por Hilda Litano, Edith Taype y Jesica Sandoval, aporta una lectura transversal del dominio. Aquí el foco se desplaza desde la rapidez comercial hacia la trazabilidad, el control documental, la rotación y la responsabilidad operativa sobre productos perecederos. Estas entrevistas exponen las restricciones operativas y los criterios de control que este segmento debe sostener para que el pedido se cumpla correctamente.
 
-*Análisis del S2: Operations / Account Owner*
+*Análisis del Segmento 2: Operations / Account Owner*
 
-| Variable observada en S2 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
+| Variable observada en Segmento 2 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
 | --- | --- | --- | --- |
 | Trazabilidad documental sensible | Hilda y Jesica enfatizan control de documentación, temperatura y vencimientos | La operación necesita respaldo verificable, no solo visibilidad superficial del pedido | El modelo del dominio debe contemplar evidencia, estados y reglas de validación |
 | Rotación y vencimientos como restricción real | Jesica y Edith describen dependencia de coordinación manual para FEFO y disponibilidad | La calidad de la entrega depende de decisiones previas sobre inventario y priorización | El sistema debe hacer visible stock, vencimientos y criterios de rotación relevantes |
 | Accesos y visibilidad fragmentados | Edith reporta limitaciones de acceso y necesidad de intermediación interna | La operación no comparte la misma información con el mismo nivel de oportunidad | Se requieren roles, permisos y vistas diferenciadas sobre un mismo flujo |
-> *Nota:* La tabla sintetiza los patrones de comportamiento, fricciones y consecuencias de diseño del S2 a partir de la muestra entrevistada. Elaboración propia.
+> *Nota:* La tabla sintetiza los patrones de comportamiento, fricciones y consecuencias de diseño del Segmento 2 a partir de la muestra entrevistada. Elaboración propia.
 
 **Características objetivas:**
 
@@ -454,19 +470,19 @@ El segmento S2, representado en esta muestra por Hilda Litano, Edith Taype y Jes
 - **Conflictos de responsabilidad:** La rotura de la cadena de frío después de la entrega puede derivar en disputas difíciles de resolver cuando no existe evidencia digital suficiente del estado del producto.
 - **Validación manual de datos críticos:** En al menos una entrevista aparece la necesidad de revisar manualmente órdenes sensibles antes de liberarlas a operación, lo que evidencia falta de confianza en la captura inicial.
 
-**Hallazgos clave para el S2:**
+**Hallazgos clave para el Segmento 2:**
 
 - Se requiere una **herramienta unificada** que centralice la información de stock, vencimientos y estados del pedido con la documentación operativa.
 - La **trazabilidad del pedido** debe ser una evidencia inalterable para proteger la responsabilidad de la distribuidora frente a incidencias y reclamos.
 - Reducir los **silos de información** permitiendo diferentes niveles de acceso según el rol operativo, sin que la visibilidad dependa de coordinación verbal o papeles.
-- El S2 concentra las reglas, políticas y restricciones operativas que el producto debe respetar para que el flujo del pedido sea ejecutable y trazable.
+- El Segmento 2 concentra las reglas, políticas y restricciones operativas que el producto debe respetar para que el flujo del pedido sea ejecutable y trazable.
 
-**Análisis del S3: B2B Buyer Portal**
+**Análisis del Segmento 3: B2B Buyer Portal**
 El análisis de las dos entrevistas exploratorias con Pedro Puente y Henrry García muestra un patrón consistente: el comprador comercial necesita previsibilidad logística, pero no está dispuesto a adoptarla a costa de complejidad adicional o pérdida de trato humano. Para ambos, el distribuidor no es solo un proveedor, sino un actor del que depende la continuidad operativa del negocio.
 
-*Análisis del S3: B2B Buyer Portal*
+*Análisis del Segmento 3: B2B Buyer Portal*
 
-| Variable observada en S3 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
+| Variable observada en Segmento 3 | Evidencia recurrente | Lectura analítica | Implicancia de diseño |
 | --- | --- | --- | --- |
 | Dependencia de canales informales para pedir | Pedro y Henrry describen uso de llamadas y WhatsApp para resolver urgencias | La velocidad de respuesta pesa más que la sofisticación funcional | El portal debe ser rápido de usar y fácil de entender desde el primer contacto |
 | Necesidad de visibilidad del estado del pedido | Ambos expresan incertidumbre sobre stock, confirmación y entrega | El principal valor esperado no es solo comprar, sino saber qué ocurrirá después del pedido | Priorizar confirmación clara, estados visibles y seguimiento del despacho |
@@ -490,7 +506,7 @@ El análisis de las dos entrevistas exploratorias con Pedro Puente y Henrry Garc
 - **Opacidad del momento de llegada:** La falta de actualización del estado de despacho obliga a esperar con alta incertidumbre la llegada del pedido y dificulta preparar la recepción.
 - **Asimetría competitiva:** En la muestra aparece la percepción de que los clientes pequeños quedan en desventaja frente a cuentas grandes cuando el stock o la capacidad de entrega se tensionan.
 
-**Hallazgos clave para el S3:**
+**Hallazgos clave para el Segmento 3:**
 
 - La plataforma debe permitir un pedido rápido y ofrecer seguimiento sin obligar al cliente a perseguir confirmaciones por otros canales.
 - El sistema debe digitalizar la operación sin eliminar por completo el soporte humano en casos excepcionales.
@@ -498,13 +514,13 @@ El análisis de las dos entrevistas exploratorias con Pedro Puente y Henrry Garc
 
 **Implicancias de diseño operativo para el flujo de despacho y entrega**
 
-El tramo final del flujo del pedido —despacho, seguimiento, incidencia y cierre con evidencia— forma parte de las responsabilidades del S2. A partir de los hallazgos sobre visibilidad de entrega, necesidad de estado comunicable, cierre defendible y carga operativa durante la ruta, se identifican las siguientes implicancias de diseño que complementan la caracterización del S2.
+El tramo final del flujo del pedido —despacho, seguimiento, incidencia y cierre con evidencia— forma parte de las responsabilidades del Segmento 2. A partir de los hallazgos sobre visibilidad de entrega, necesidad de estado comunicable, cierre defendible y carga operativa durante la ruta, se identifican las siguientes implicancias de diseño que complementan la caracterización del Segmento 2.
 
 **Evidencia que sustenta estas implicancias:**
 
-- Desde la evidencia del S2, aparece la necesidad de contar con trazabilidad documental y cierre defendible frente a incidencias.
-- Desde el S3 (compradores), aparece la necesidad de un estado de despacho comunicable, menor opacidad operativa y confirmación confiable de entrega.
-- Desde el flujo del dominio, el cierre del pedido exige estados claros, registro de incidencias y prueba de entrega, lo que forma parte del alcance operativo que el S2 debe gestionar.
+- Desde la evidencia del Segmento 2, aparece la necesidad de contar con trazabilidad documental y cierre defendible frente a incidencias.
+- Desde el Segmento 3 (compradores), aparece la necesidad de un estado de despacho comunicable, menor opacidad operativa y confirmación confiable de entrega.
+- Desde el flujo del dominio, el cierre del pedido exige estados claros, registro de incidencias y prueba de entrega, lo que forma parte del alcance operativo que el Segmento 2 debe gestionar.
 
 **Implicancias de diseño para el tramo de despacho y entrega:**
 
@@ -551,7 +567,7 @@ pie title Uso de Canales de Comunicación
     "ERP / Sistema Formal" : 10
 ```
 
-> *Nota:* Resultados obtenidos de las 8 entrevistas a profundidad realizadas con S1, S2 y S3. Elaboración propia.
+> *Nota:* Resultados obtenidos de las 8 entrevistas a profundidad realizadas con Segmento 1, Segmento 2 y Segmento 3. Elaboración propia.
 
 *Jerarquía de Puntos de Dolor por Incidencia en los Segmentos*
 
