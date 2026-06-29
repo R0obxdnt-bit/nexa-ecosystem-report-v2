@@ -2,7 +2,8 @@
 
 Esta sección documenta la colaboración del equipo **KING** en la elaboración y evolución del informe académico de **Nexa**. De acuerdo con el enfoque Docs-as-Code solicitado para el curso, el reporte se mantiene en GitHub y evoluciona mediante commits, revisión cruzada, integración de capítulos y actualización progresiva de evidencias.
 
-La colaboración se describe de forma acumulativa por entrega: Sprint 1 / AV1, Sprint 2 / TB1 y Sprint 3 / AV2. Las evidencias disponibles se organizan por entrega.
+La colaboración se describe de forma acumulativa por entrega: **Sprint 1 / AV1**, **Sprint 2 / TB1**, **Sprint 3 / AV2** y **Sprint 4 / TB2**.
+
 ### Organización en GitHub
 
 El trabajo del equipo se organizó en una organización pública de GitHub, separando el repositorio del informe académico de los repositorios de implementación. Esta separación permite distinguir la evolución documental del Project Report frente a la evolución técnica de la Landing Page, la Web Application y los Web Services.
@@ -80,6 +81,18 @@ Esta migración se documenta como parte del corte académico AV2 y no implica de
 | Torrejón De Los Santos, Gino Rodrigo | Catalog Management, coherencia funcional y evidencias de producto. | Colaboración en Catalog Management, relación entre investigación, diseño, backlog, UX y alcance funcional AV2. | Capítulo 3, Capítulo 4, Student Outcome y commits técnicos asociados a catálogo. |
 | Verde Bueno, Joaquín Francisco | Warehouse, mockups, UX/UI y continuidad visual. | Reemplazo/adición de mockups por segmento, trazabilidad de Warehouse y continuidad entre flujos UX y backend. | Capítulo 4, assets del informe y commits AV2 de mockups. |
 | Yucra Sandoval, Diego Sebastian | Coordinación general, releases, integración documental y despliegues. | Coordinación de releases auditados, WebApp/API en Render, PostgreSQL, SCM, Sprint 3 y alineación final del reporte. | Commits de release, README, auditorías técnicas y actualización documental del informe. |
+
+### Organización de colaboración para TB2
+
+Durante **Sprint 4 / TB2**, el equipo organiza el cierre final del proyecto en frentes de trabajo diferenciados, manteniendo colaboración cruzada entre documentación, producto, diseño, implementación, validación y despliegue. Esta organización permite que el informe evolucione de forma consistente con la actualización de la Website, la Web Application y la Platform API.
+
+| Integrante | Frente de colaboración TB2 | Actividades de cierre |
+|---|---|---|
+| Marín Cueva, César Fernando | Revisión documental y consistencia académica | Revisa la coherencia del front matter, Student Outcome, capítulos del informe, redacción académica y trazabilidad entre requisitos, diseño e implementación. |
+| Rojas Mancilla, Gerard Gianpier | Arquitectura técnica y backend | Revisa la consistencia de Platform API, bounded contexts, documentación de servicios, Swagger/OpenAPI y evidencias técnicas relacionadas con Web Services. |
+| Torrejón De Los Santos, Gino Rodrigo | Coherencia funcional del producto | Revisa la correspondencia entre User Stories, Product Backlog, flujos funcionales, catálogo, Web Application y comportamiento esperado del producto. |
+| Verde Bueno, Joaquín Francisco | UX/UI y evidencias visuales | Revisa capturas, mockups, diagramas, assets visuales, consistencia de navegación y evidencias de experiencia de usuario. |
+| Yucra Sandoval, Diego Sebastian | Liderazgo general e integración final | Coordina la planificación del cierre TB2, integración de avances, revisión de despliegues, releases, evidencias de colaboración y preparación de sustentación. |
 
 ### Evidencias de GitHub Insights
 
@@ -224,6 +237,7 @@ Figura. Tablero Jira del Sprint 3 / AV2 utilizado como evidencia de planificaci�
 | Sprint 1 / AV1 | Construcción inicial del informe, definición del problema, segmentos, Lean UX, requisitos, diseño inicial y Landing Page. | Reporte base estructurado, Landing Page documentada, evidencias iniciales de commits y coordinación. |
 | Sprint 2 / TB1 | Consolidación de la Web Application frontend, actualización de UX/UI, mejora del Product Backlog, evidencias de repositorios y revisión integral del reporte. | Reporte ampliado, Web Application documentada, evidencias de commits, Jira y coordinación del equipo. |
 | Sprint 3 / AV2 | Consolidación de Web Services, actualización de Web Application, despliegues Render, migración/configuración hacia PostgreSQL y revisión documental del corte AV2. | Reporte actualizado para AV2, despliegues controlados documentados, límites de alcance delimitados y trazabilidad entre colaboración, implementación y validación. |
+| Sprint 4 / TB2 | Cierre final del ciclo de vida del proyecto, actualización integral del informe, refinamiento de Website, Web Application y Platform API, validación final, despliegues finales y preparación de sustentación. | Reporte final orientado a Release Review, evidencias finales de colaboración, actualización de Sprint 4, consolidación de validaciones, despliegues, videos y anexos finales. |
 
 ### Evidencias de coordinación y trabajo en equipo
 
