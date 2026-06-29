@@ -29,7 +29,7 @@ Para evitar ambigüedad de alcance, se distingue entre endpoint HTTP, REST resou
 
 ![Reunión virtual de planificación del Sprint 3](../../assets/images/front-matter/collaboration/team-collaboration-meeting-3.jpeg)
 
-Reunión virtual del equipo para coordinación de Sprint 3.
+> *Nota:* Captura de reunión virtual del equipo para coordinación de Sprint 3.
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
