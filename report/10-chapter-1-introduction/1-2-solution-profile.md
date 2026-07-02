@@ -121,24 +121,17 @@ En este enfoque, los elementos del Lean UX Process no se redactan como requisito
 
 #### **1.2.2.1. Lean UX Problem Statements**
 
-El problema de Nexa no se formula como la ausencia de una aplicación, sino como una brecha de coordinación, visibilidad y trazabilidad en el flujo de pedidos B2B de productos refrigerados. Aunque el problema afecta a distintos actores, se mantiene un único Problem Statement porque S1, S2 y S3 forman parte del mismo flujo de negocio.
+El estado actual de la **gestión de pedidos B2B de productos refrigerados** se ha enfocado principalmente en **empresas importadoras y distribuidoras medianas que coordinan clientes, solicitudes de compra, inventario, despacho, documentos, pagos y control de cadena de frío mediante flujos manuales o desconectados**.
 
-*Tabla. Elementos del Lean UX Problem Statement*
+Lo que los productos o servicios existentes no resuelven adecuadamente es **la falta de un flujo simple y conectado que relacione la solicitud comercial, la validación del pedido, la disponibilidad de inventario, el estado del despacho, los documentos del negocio, las referencias de pago y la visibilidad de temperatura para productos refrigerados**.
 
-| Elemento | Definición aplicada a Nexa |
-|---|---|
-| **Domain** | Gestión de pedidos B2B de productos refrigerados, considerando solicitud, validación comercial, disponibilidad, inventario, despacho, documentos y seguimiento. |
-| **Customer segments** | Empresas importadoras y distribuidoras medianas de productos refrigerados que atienden clientes B2B, como bodegas, minimarkets, negocios HORECA u otros compradores comerciales. |
-| **Pain points** | Uso de WhatsApp, llamadas, audios, hojas de cálculo o registros no integrados para coordinar pedidos; doble digitación; validaciones manuales; información incompleta; baja visibilidad de disponibilidad y estado del pedido; dependencia de consultas repetitivas. |
-| **Gap** | Las prácticas actuales no conectan de forma consistente la solicitud comercial, la validación del pedido, la disponibilidad operativa, los documentos y el seguimiento del despacho en una experiencia compartida para los actores del flujo. |
-| **Vision / strategy** | Comprobar si una experiencia digital mínima puede reducir ambigüedad, retrabajo y dependencia de canales informales en el flujo principal de pedidos B2B refrigerados. |
-| **Initial segment** | La validación inicial se enfoca en S1 y S2, porque si el pedido no se estructura y valida internamente, la visibilidad ofrecida a S3 no tendría información suficientemente confiable. |
+Nuestro producto abordará esta brecha mediante **una estrategia de experiencia digital B2B orientada a conectar el flujo comercial y operativo del pedido, incluyendo información de catálogo, solicitudes, órdenes, inventario, despacho, documentos, pagos y registros de temperatura asociados al control de cadena de frío**.
 
->*Nota:* La tabla organiza el Problem Statement según los elementos solicitados para el Lean UX Process. Elaboración propia.
+Nuestro foco inicial será **los usuarios internos comerciales y operativos, porque ellos estructuran, validan y actualizan la información del pedido que luego consulta el comprador B2B**.
 
-**Problem Statement**
+Sabremos que tenemos éxito cuando observemos **usuarios comerciales registrando solicitudes con menor reinterpretación manual, usuarios operativos actualizando información de despacho y temperatura de forma consistente, y compradores B2B consultando estado del pedido, documentos, pagos e información de cadena de frío sin depender únicamente de WhatsApp, llamadas o hojas de cálculo**.
 
-El estado actual de la gestión de pedidos B2B de productos refrigerados se apoya principalmente en canales informales y registros no integrados para coordinar solicitudes, validaciones comerciales, disponibilidad, documentos y seguimiento. Lo que estas prácticas no resuelven adecuadamente es la conexión entre la información comercial del pedido y la información operativa necesaria para confirmar, preparar y comunicar su avance. Nexa abordará esta brecha comprobando si una experiencia digital mínima ayuda a los usuarios internos y compradores B2B a estructurar, consultar y coordinar pedidos con menor ambigüedad. El foco inicial será validar el flujo interno con S1 y S2 antes de ampliar la validación hacia la experiencia externa de S3.
+>*Nota:* El aporte IoT de Nexa se considera dentro del problema porque la medición y el registro de temperatura permiten dar visibilidad al estado térmico de productos refrigerados durante el flujo de atención y despacho.
 
 #### **1.2.2.2. Lean UX Assumptions**
 
@@ -153,24 +146,43 @@ Las assumptions representan aquello que el equipo cree sobre usuarios, beneficio
 
 ##### User outcomes and benefits assumptions
 
-- **UOBA1:** Creemos que un usuario interno de coordinación comercial se beneficia si puede registrar solicitudes con menor reinterpretación, menor doble digitación y mayor claridad de datos mínimos.
-- **UOBA2:** Creemos que un usuario interno operativo o administrador de cuenta se beneficia si puede identificar con mayor claridad la disponibilidad, el estado y la siguiente acción operativa de un pedido.
-- **UOBA3:** Creemos que un comprador B2B externo se beneficia si puede consultar información básica del pedido y su avance sin esperar una respuesta manual.
-- **UOBA4:** Creemos que los usuarios comerciales, operativos y compradores B2B se benefician si la información del pedido mantiene continuidad entre solicitud, validación, operación y seguimiento.
+Las siguientes assumptions separan los **user outcomes**, los **user benefits** y los **comportamientos esperados**. Los user outcomes expresan lo que creemos que los usuarios intentan lograr. Los benefits expresan el valor que recibirían. Los comportamientos esperados indican qué debería observarse para validar esos outcomes y beneficios.
+
+###### User outcome assumptions
+
+- **UOA1:** Creemos que el usuario interno de coordinación comercial intenta convertir solicitudes dispersas en pedidos claros y accionables.
+- **UOA2:** Creemos que el usuario interno operativo o administrador de cuenta intenta decidir si un pedido puede avanzar según disponibilidad, estado operativo, documentos, pagos y condiciones de despacho.
+- **UOA3:** Creemos que el comprador B2B externo intenta consultar información de sus pedidos sin depender siempre de respuestas manuales del proveedor.
+- **UOA4:** Creemos que los usuarios comerciales, operativos y compradores B2B intentan mantener continuidad de información entre solicitud, validación, operación y seguimiento.
+
+###### User benefit assumptions
+
+- **UBA1:** Creemos que el usuario interno de coordinación comercial se beneficia al registrar datos mínimos del pedido con menor reinterpretación, menor doble digitación y menor dependencia de mensajes sueltos.
+- **UBA2:** Creemos que el usuario interno operativo o administrador de cuenta se beneficia al identificar la siguiente acción operativa con información menos dispersa sobre disponibilidad, estado, despacho, documentos y pagos.
+- **UBA3:** Creemos que el comprador B2B externo se beneficia al revisar catálogo, solicitud, estado del pedido, documentos, pagos e información de cadena de frío con mayor autonomía.
+- **UBA4:** Creemos que los usuarios comerciales, operativos y compradores B2B se benefician cuando la información del pedido conserva coherencia durante todo el flujo.
+
+###### Expected behavior assumptions
+
+- **EBA1:** Esperamos observar que el usuario interno de coordinación comercial registre una solicitud usando datos estructurados, en lugar de reconstruir manualmente la información desde WhatsApp, llamadas, audios u hojas de cálculo.
+- **EBA2:** Esperamos observar que el usuario interno operativo o administrador de cuenta revise un pedido e identifique disponibilidad, estado operativo y siguiente acción sin consultar varias fuentes separadas.
+- **EBA3:** Esperamos observar que el comprador B2B externo consulte estado del pedido, documentos, pagos o información de cadena de frío desde el portal antes de recurrir a llamadas o mensajes.
+- **EBA4:** Esperamos observar que cada actor continúe su parte del proceso usando información registrada previamente, sin volver a solicitar o reconstruir los mismos datos.
 
 ##### Business assumptions
 
-- **BA1:** Creemos que las empresas importadoras y distribuidoras medianas de productos refrigerados tienen una fricción relevante en la coordinación de pedidos B2B cuando el flujo depende de canales informales.
-- **BA2:** Creemos que el valor inicial de Nexa no está solo en mostrar un catálogo, sino en conectar la solicitud del pedido con validación, disponibilidad y seguimiento.
-- **BA3:** Creemos que el negocio puede validar primero un flujo mínimo antes de considerar integraciones más complejas con ERP, TMS, sensores IoT u otros sistemas externos.
-- **BA4:** Creemos que una solución inicial debe convivir con la forma actual de trabajo de los usuarios y no exigir una sustitución total inmediata de sus canales habituales.
+* **BA1:** Creemos que las empresas importadoras y distribuidoras medianas de productos refrigerados tienen fricción relevante al coordinar pedidos B2B mediante WhatsApp, llamadas, hojas de cálculo o registros no integrados.
+* **BA2:** Creemos que el valor inicial de Nexa está en conectar la solicitud comercial con la validación del pedido, la disponibilidad, el despacho, los documentos, los pagos y la información de cadena de frío.
+* **BA3:** Creemos que la visibilidad de temperatura es relevante para el negocio porque los productos refrigerados requieren mayor control durante almacenamiento, preparación y despacho.
+* **BA4:** Creemos que la adopción inicial será más viable si la experiencia digital convive con los canales actuales, en lugar de exigir que los usuarios abandonen inmediatamente WhatsApp, llamadas u hojas de cálculo.
 
 ##### Business outcome assumptions
 
-- **BOA1:** Creemos que estructurar la solicitud desde el inicio puede reducir retrabajo comercial y aclaraciones posteriores.
-- **BOA2:** Creemos que conectar pedido y disponibilidad puede reducir ambigüedad operativa antes de preparar o despachar un pedido.
-- **BOA3:** Creemos que mostrar estado, documentos y seguimiento puede reducir consultas manuales repetitivas del comprador B2B.
-- **BOA4:** Creemos que validar un flujo mínimo permitirá decidir con mayor evidencia qué funcionalidades deben priorizarse en el backlog.
+* **BOA1:** Creemos que el negocio reducirá retrabajo comercial si los usuarios internos registran solicitudes con datos mínimos estructurados y necesitan menos reinterpretación manual para convertirlas en pedidos.
+* **BOA2:** Creemos que el negocio mejorará la coordinación operativa si los usuarios internos pueden identificar disponibilidad, estado del pedido y siguiente acción sin reconstruir información desde fuentes separadas.
+* **BOA3:** Creemos que el negocio reducirá consultas manuales repetitivas si los compradores B2B consultan estado del pedido, documentos, pagos e información de cadena de frío desde una experiencia digital antes de recurrir a llamadas o mensajes.
+* **BOA4:** Creemos que el negocio priorizará mejor el alcance del producto si la validación del flujo mínimo muestra qué partes del pedido recurrente generan valor observable y cuáles deben ajustarse o postergarse.
+
 
 ##### Feature assumptions
 
@@ -180,40 +192,37 @@ Las assumptions representan aquello que el equipo cree sobre usuarios, beneficio
 * **FA4:** Creemos que una experiencia web responsiva es suficiente para validar el flujo inicial con usuarios comerciales, operativos y compradores B2B antes de evaluar aplicaciones móviles nativas o integraciones avanzadas.
 * **FA5:** Creemos que el primer prototipo debe probar un escenario de pedido recurrente, no la totalidad del producto.
 
-
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 
-Las hypothesis statements convierten las assumptions principales en afirmaciones comprobables. Cada hipótesis combina un resultado de negocio esperado, un usuario, un beneficio y una idea de solución. De esta forma, el equipo puede validar si la solución propuesta produce aprendizaje útil antes de ampliar el alcance del producto.
+Las hypothesis statements convierten las assumptions principales en afirmaciones comprobables. Para mantener la estructura propuesta por Lean UX, cada hipótesis se formula a partir de cuatro elementos: business outcome, usuario, beneficio esperado y feature o solución.
 
-*Tabla. Lean UX Hypothesis Statements*
+- **H1:** Creemos que lograremos **reducir el retrabajo comercial en el registro de solicitudes** si **el usuario interno de coordinación comercial** obtiene **menor reinterpretación, menor doble digitación y menor dependencia de mensajes sueltos** con **un flujo digital de registro de solicitud que incluya datos mínimos de cliente, productos, cantidades y condiciones comerciales**.
 
-| Código | Hypothesis Statement | Assumptions relacionadas | Señal de validación |
-|---|---|---|---|
-| **H1** | Creemos que el retrabajo comercial disminuirá si S1 puede registrar solicitudes B2B mediante un flujo digital con datos mínimos de cliente, productos, cantidades y condiciones comerciales. Sabremos que esto es cierto cuando S1 pueda completar el escenario de registro con menos ambigüedad que en el flujo manual declarado. | UA1, UOBA1, BOA1, FA1 | S1 comprende qué datos ingresar, identifica menos pasos ambiguos y declara que el flujo reduce reinterpretación o doble digitación frente a su proceso actual. |
-| **H2** | Creemos que la coordinación operativa mejorará si S2 puede revisar pedido, disponibilidad básica, estado operativo y documentos en una misma vista. Sabremos que esto es cierto cuando S2 pueda identificar la siguiente acción operativa sin depender de información dispersa. | UA2, UOBA2, BOA2, FA2 | S2 reconoce el estado del pedido, explica qué acción corresponde y señala que la vista reduce ambigüedad frente al uso de registros separados. |
-| **H3** | Creemos que la visibilidad del comprador B2B mejorará si S3 puede consultar catálogo, solicitud, estado del pedido y documentos desde un portal. Sabremos que esto es cierto cuando S3 pueda resolver consultas básicas del pedido sin recurrir inmediatamente a llamada o mensaje. | UA3, UOBA3, BOA3, FA3 | S3 encuentra información clave del pedido, entiende el estado mostrado y declara que el portal reduce consultas manuales frecuentes. |
-| **H4** | Creemos que la adopción inicial será más viable si Nexa se valida como apoyo al flujo actual y no como reemplazo total inmediato de WhatsApp, llamadas o Excel. Sabremos que esto es cierto cuando S1 y S2 consideren útil usar el flujo digital para pedidos recurrentes sin sentir pérdida de flexibilidad. | UA4, BA4, FA4, FA5 | S1 y S2 aceptan el flujo digital como apoyo operativo inicial y señalan qué partes del proceso actual deberían mantenerse como complemento. |
-| **H5** | Creemos que el equipo podrá priorizar mejor el backlog si prueba primero un escenario mínimo de pedido recurrente. Sabremos que esto es cierto cuando la validación permita decidir qué features deben mantenerse, modificarse o postergarse. | BA3, BOA4, FA5 | La prueba del escenario mínimo produce decisiones concretas sobre captura de solicitud, disponibilidad, seguimiento o documentos. |
+- **H2:** Creemos que lograremos **mejorar la coordinación operativa entre pedido, inventario y despacho** si **el usuario interno operativo o administrador de cuenta** obtiene **información menos dispersa sobre disponibilidad, estado, despacho, documentos y pagos** con **una vista operativa que conecte pedido, disponibilidad básica, estado operativo, despacho, documentos y pagos**.
 
->*Nota:* Las hypothesis statements conectan assumptions con evidencia observable. No buscan probar todo el producto, sino aprender qué parte del flujo aporta valor y qué parte debe ajustarse. Elaboración propia.
+- **H3:** Creemos que lograremos **reducir consultas manuales sobre estado, documentos, pagos e información de cadena de frío** si **el comprador B2B externo** obtiene **mayor autonomía para revisar catálogo, solicitud, estado del pedido, documentos, pagos e información de cadena de frío** con **un portal de comprador que muestre información básica del pedido y registros de temperatura asociados a productos refrigerados**.
+
+- **H4:** Creemos que lograremos **aumentar la viabilidad de adopción inicial del flujo digital** si **los usuarios internos comerciales y operativos** obtienen **continuidad de información durante el flujo del pedido sin perder flexibilidad frente a sus canales actuales** con **una experiencia digital mínima que conviva con WhatsApp, llamadas u hojas de cálculo durante la etapa inicial**.
+
+>*Nota:* Las hipótesis siguen la estructura: business outcome, usuario, beneficio esperado y feature o solución. Los beneficios usados en las hipótesis se derivan de las User benefit assumptions.
 
 #### **1.2.2.4. Lean UX Canvas**
 
-El Lean UX Canvas resume el proceso anterior en ocho bloques. Su propósito es mantener una visión unificada del problema, los outcomes, los usuarios, los beneficios, las soluciones posibles, las hipótesis y el aprendizaje que debe validarse primero.
+El Lean UX Canvas resume el proceso anterior en ocho bloques. Su propósito es mantener una visión clara del problema, los outcomes, los usuarios, los beneficios, las posibles soluciones, las hipótesis y el aprendizaje que debe validarse primero.
 
 *Tabla. Lean UX Canvas de Nexa*
 
 | Box | Contenido aplicado a Nexa |
 |---|---|
-| **1. Business Problem** | Las empresas importadoras y distribuidoras medianas de productos refrigerados coordinan pedidos B2B mediante canales informales y registros no integrados. Esta forma de trabajo genera ambigüedad entre solicitud, validación, disponibilidad, documentos y seguimiento, afectando la coordinación entre usuarios comerciales, operación y compradores B2B. |
-| **2. Business Outcomes** | Reducir retrabajo comercial en la captura de solicitudes; mejorar la coordinación operativa entre pedido y disponibilidad; disminuir consultas manuales repetitivas sobre estado o documentos; y obtener evidencia para priorizar el backlog del producto con base en aprendizaje validado. |
-| **3. Users** | **S1: Commercial Coordination.** Usuario interno que recibe, interpreta y registra solicitudes comerciales.<br><br>**S2: Operations / Account Owner.** Usuario interno que revisa disponibilidad, estado operativo, documentos, despacho y configuración relacionada con la operación.<br><br>**S3: B2B Buyer.** Comprador externo que consulta catálogo, genera solicitudes, revisa pedidos, documentos y seguimiento. |
-| **4. User Outcomes & Benefits** | **S1** quiere registrar pedidos con menos reinterpretación, menos doble digitación y mayor claridad de datos mínimos.<br><br>**S2** quiere decidir la siguiente acción operativa con información menos dispersa sobre pedido, disponibilidad y documentos.<br><br>**S3** quiere consultar información básica de su pedido con mayor autonomía y sin depender siempre de llamadas o mensajes. |
-| **5. Solutions** | Posibles soluciones a validar: flujo de registro de solicitud con datos mínimos; vista operativa de pedido, disponibilidad y documentos; portal de comprador con catálogo, solicitud, estado y documentos; experiencia web responsiva para probar el flujo inicial; escenario de pedido recurrente como primer caso de prueba. |
-| **6. Hypotheses** | **H1:** El retrabajo comercial disminuirá si S1 registra solicitudes con un flujo digital de datos mínimos.<br><br>**H2:** La coordinación operativa mejorará si S2 revisa pedido, disponibilidad, estado y documentos en una misma vista.<br><br>**H3:** La visibilidad del comprador mejorará si S3 consulta catálogo, solicitud, estado y documentos desde un portal.<br><br>**H4:** La adopción inicial será más viable si Nexa se valida como apoyo al flujo actual y no como reemplazo total inmediato de canales informales.<br><br>**H5:** La priorización del backlog mejorará si primero se valida un escenario mínimo de pedido recurrente. |
-| **7. What’s the most important thing we need to learn first?** | Lo más importante que se necesita aprender primero es si S1 y S2 consideran útil estructurar y revisar un pedido recurrente mediante una experiencia digital mínima sin perder flexibilidad frente a su proceso actual. Esta incertidumbre se prioriza porque la experiencia externa de S3 depende de que el flujo interno produzca información clara y confiable. |
-| **8. What’s the least amount of work we need to do to learn the next most important thing?** | Probar un prototipo navegable de baja o media fidelidad con un único escenario de pedido recurrente. El escenario debe permitir que S1 registre una solicitud con datos mínimos, que S2 revise disponibilidad básica y estado operativo, y que S3 consulte estado o documentos del pedido en una segunda validación. El objetivo no es probar toda la plataforma, sino observar si el flujo mínimo reduce ambigüedad y genera aprendizaje suficiente para decidir qué features mantener, ajustar o postergar. |
+| **1. Business Problem** | Las empresas importadoras y distribuidoras medianas de productos refrigerados coordinan pedidos B2B mediante flujos manuales o desconectados. Esto genera ambigüedad entre solicitud comercial, validación del pedido, disponibilidad de inventario, despacho, documentos, pagos y control de cadena de frío. |
+| **2. Business Outcomes** | Reducir retrabajo comercial en el registro de solicitudes; mejorar la coordinación operativa entre pedido, inventario y despacho; reducir consultas manuales sobre estado, documentos, pagos e información de cadena de frío; y validar qué partes del flujo mínimo deben mantenerse, ajustarse o postergarse. |
+| **3. Users** | **Usuario interno de coordinación comercial:** recibe solicitudes de pedido mediante canales informales o registros dispersos e interpreta información comercial antes de convertirla en pedido.<br><br>**Usuario interno operativo o administrador de cuenta:** revisa información de pedido, disponibilidad, inventario, despacho, documentos y pagos para tomar decisiones operativas.<br><br>**Comprador B2B externo:** consulta catálogo, disponibilidad, estado del pedido, documentos, pagos e información relacionada con cadena de frío. |
+| **4. User Outcomes & Benefits** | **Usuario interno de coordinación comercial:** intenta convertir solicitudes dispersas en pedidos claros y accionables. Se beneficia al registrar datos mínimos del pedido con menor reinterpretación, menor doble digitación y menor dependencia de mensajes sueltos.<br><br>**Usuario interno operativo o administrador de cuenta:** intenta decidir si un pedido puede avanzar según disponibilidad, estado operativo, documentos, pagos y condiciones de despacho. Se beneficia al identificar la siguiente acción operativa con información menos dispersa.<br><br>**Comprador B2B externo:** intenta consultar información de sus pedidos sin depender siempre de respuestas manuales del proveedor. Se beneficia al revisar catálogo, solicitud, estado del pedido, documentos, pagos e información de cadena de frío con mayor autonomía.<br><br>**Flujo completo:** los usuarios comerciales, operativos y compradores B2B intentan mantener continuidad de información entre solicitud, validación, operación y seguimiento. Se benefician cuando la información del pedido conserva coherencia durante todo el flujo. |
+| **5. Solutions** | Posibles soluciones a validar: flujo digital de registro de solicitud con datos mínimos de cliente, productos, cantidades y condiciones comerciales; vista operativa que conecte pedido, disponibilidad básica, estado operativo, despacho, documentos y pagos; portal de comprador con catálogo, solicitud, estado del pedido, documentos, pagos e información básica del pedido; y registros de temperatura asociados al control de cadena de frío para productos refrigerados. |
+| **6. Hypotheses** | **H1:** Creemos que lograremos reducir el retrabajo comercial en el registro de solicitudes si el usuario interno de coordinación comercial obtiene menor reinterpretación, menor doble digitación y menor dependencia de mensajes sueltos con un flujo digital de registro de solicitud que incluya datos mínimos de cliente, productos, cantidades y condiciones comerciales.<br><br>**H2:** Creemos que lograremos mejorar la coordinación operativa entre pedido, inventario y despacho si el usuario interno operativo o administrador de cuenta obtiene información menos dispersa sobre disponibilidad, estado, despacho, documentos y pagos con una vista operativa que conecte pedido, disponibilidad básica, estado operativo, despacho, documentos y pagos.<br><br>**H3:** Creemos que lograremos reducir consultas manuales sobre estado, documentos, pagos e información de cadena de frío si el comprador B2B externo obtiene mayor autonomía para revisar catálogo, solicitud, estado del pedido, documentos, pagos e información de cadena de frío con un portal de comprador que muestre información básica del pedido y registros de temperatura asociados a productos refrigerados.<br><br>**H4:** Creemos que lograremos aumentar la viabilidad de adopción inicial del flujo digital si los usuarios internos comerciales y operativos obtienen continuidad de información durante el flujo del pedido sin perder flexibilidad frente a sus canales actuales con una experiencia digital mínima que conviva con WhatsApp, llamadas u hojas de cálculo durante la etapa inicial. |
+| **7. What’s the most important thing we need to learn first?** | Lo más importante es aprender si los usuarios internos comerciales y operativos consideran útil estructurar, revisar y actualizar un pedido recurrente mediante una experiencia digital mínima sin perder flexibilidad frente a WhatsApp, llamadas u hojas de cálculo. Este aprendizaje se prioriza porque la experiencia del comprador B2B depende de que el flujo interno produzca información clara, consistente y actualizada. |
+| **8. What’s the least amount of work we need to do to learn the next most important thing?** | Probar un prototipo navegable mínimo con un escenario de pedido recurrente. El escenario debe permitir que el usuario comercial registre una solicitud con datos mínimos; que el usuario operativo revise disponibilidad básica, documentos, pagos, estado operativo y despacho; y que el comprador B2B consulte información del pedido, incluyendo estado, documentos, pagos e información de cadena de frío. No se validará toda la plataforma, sino si el flujo mínimo reduce ambigüedad y genera aprendizaje para decidir qué mantener, ajustar o postergar. |
 
->*Nota:* El Lean UX Canvas sintetiza el proceso de aprendizaje de Nexa. Las soluciones se expresan como ideas a validar y no como requisitos definitivos. Elaboración propia.
+>*Nota:* El Lean UX Canvas presenta las soluciones como ideas a validar y no como requisitos definitivos. El aporte IoT se considera en el flujo mediante los registros de temperatura asociados al control de cadena de frío para productos refrigerados.
 
 Es fundamental destacar que el Lean UX Process no define la solución tecnológica como definitiva ni pretende cerrar el diseño del producto en esta etapa inicial. Su propósito es estructurar y organizar el aprendizaje empírico y experimental de partida. De este modo, los resultados obtenidos de este marco dinámico se conectarán y darán soporte directo al proceso de Needfinding, a la definición y refinamiento de User Stories, a la formulación de criterios de aceptación detallados, y a la priorización del Product Backlog para las validaciones iterativas en los siguientes ciclos de desarrollo del proyecto Nexa.
